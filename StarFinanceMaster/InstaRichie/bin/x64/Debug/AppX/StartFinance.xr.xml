@@ -11,6 +11,10 @@
     <RootPropertyPathName Name="DebtName" />
     <RootPropertyPathName Name="DateofDebt" />
     <RootPropertyPathName Name="Value" />
+    <RootPropertyPathName Name="Email" />
+    <RootPropertyPathName Name="Contact" />
+    <RootPropertyPathName Name="Full_Name" />
+    <RootPropertyPathName Name="User_ID" />
     <RootPropertyPathName Name="AboutPartViewModel" />
     <RootPropertyPathName Name="Version" />
     <RootPropertyPathName Name="Publisher" />
@@ -310,6 +314,7 @@
       <RootProperty Name="TargetObject" />
     </RootType>
     <RootType FullName="StartFinance.Views.MainPage" />
+    <RootType FullName="StartFinance.Views.PersonalInfoPage" />
     <RootType FullName="StartFinance.ViewModels.SettingsPageViewModel" />
     <RootType FullName="Windows.UI.Xaml.Controls.Border">
       <RootProperty Name="HorizontalAlignment" />

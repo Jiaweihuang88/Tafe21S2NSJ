@@ -275,3 +275,14 @@ D:\5TSDFinanceAssignment\StarFinanceMaster\InstaRichie\obj\x64\Debug\qualifiers.
 D:\5TSDFinanceAssignment\StarFinanceMaster\InstaRichie\obj\x64\Debug\MultipleQualifiersPerDimensionFound.txt
 D:\5TSDFinanceAssignment\StarFinanceMaster\InstaRichie\obj\x64\Debug\ProjectArchitectures.txt
 D:\5TSDFinanceAssignment\StarFinanceMaster\InstaRichie\obj\x64\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_636884968160000000.json
+D:\5TSDFinanceAssignment\StarFinanceMaster\InstaRichie\obj\x64\Debug\Views\PersonalInfoPage.g.i.cs
+D:\5TSDFinanceAssignment\StarFinanceMaster\InstaRichie\obj\x64\Debug\Views\PersonalInfoPage.g.cs
+D:\5TSDFinanceAssignment\StarFinanceMaster\InstaRichie\obj\x64\Debug\Views\PersonalInfoPage.xaml
+D:\5TSDFinanceAssignment\StarFinanceMaster\InstaRichie\obj\x64\Debug\Views\PersonalInfoPage.xbf
+D:\5TSDFinanceAssignment\StarFinanceMaster\InstaRichie\bin\x64\Debug\Views\PersonalInfoPage.xbf
+D:\5TSDFinanceAssignment\StarFinanceMaster\InstaRichie\bin\x64\Debug\System.Buffers.dll
+D:\5TSDFinanceAssignment\StarFinanceMaster\InstaRichie\bin\x64\Debug\System.Net.NameResolution.dll
+D:\5TSDFinanceAssignment\StarFinanceMaster\InstaRichie\obj\x64\Debug\FxResources.System.Net.Primitives.SR.resw
+D:\5TSDFinanceAssignment\StarFinanceMaster\InstaRichie\obj\x64\Debug\FxResources.System.Net.Sockets.SR.resw
+D:\5TSDFinanceAssignment\StarFinanceMaster\InstaRichie\obj\x64\Debug\FxResources.System.Buffers.SR.resw
+D:\5TSDFinanceAssignment\StarFinanceMaster\InstaRichie\obj\x64\Debug\FxResources.System.Net.NameResolution.SR.resw

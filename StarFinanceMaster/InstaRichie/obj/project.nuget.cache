@@ -1,19 +1,18 @@
 {
   "version": 2,
-  "dgSpecHash": "Ap8jWt5tavqJyfH+W7tzbo0Iyr7ALCE5ZCDItH0rMeNsKvuAmPaiLA3h3sgiOHVnQXxGWomk49Vbv7/eflqQvw==",
+  "dgSpecHash": "faHlkFyAkfbWRLIQSgyvO372dMBmvv9o+/CAT0Dmt5rRBLLH8EQhijOma4KSlvr0dK8nrGjaHzG+JHCwKvaikA==",
   "success": true,
   "projectFilePath": "D:\\5TSDFinanceAssignment\\StarFinanceMaster\\InstaRichie\\Start Finance.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Jiawei Huang\\.nuget\\packages\\crosspiecharts.uwp\\1.0.2\\crosspiecharts.uwp.1.0.2.nupkg.sha512",
     "C:\\Users\\Jiawei Huang\\.nuget\\packages\\microsoft.csharp\\4.0.0\\microsoft.csharp.4.0.0.nupkg.sha512",
     "C:\\Users\\Jiawei Huang\\.nuget\\packages\\microsoft.netcore\\5.0.0\\microsoft.netcore.5.0.0.nupkg.sha512",
-    "C:\\Users\\Jiawei Huang\\.nuget\\packages\\microsoft.netcore.platforms\\1.0.0\\microsoft.netcore.platforms.1.0.0.nupkg.sha512",
+    "C:\\Users\\Jiawei Huang\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\Jiawei Huang\\.nuget\\packages\\microsoft.netcore.portable.compatibility\\1.0.0\\microsoft.netcore.portable.compatibility.1.0.0.nupkg.sha512",
     "C:\\Users\\Jiawei Huang\\.nuget\\packages\\microsoft.netcore.runtime\\1.0.1\\microsoft.netcore.runtime.1.0.1.nupkg.sha512",
     "C:\\Users\\Jiawei Huang\\.nuget\\packages\\microsoft.netcore.runtime.coreclr\\1.0.1\\microsoft.netcore.runtime.coreclr.1.0.1.nupkg.sha512",
     "C:\\Users\\Jiawei Huang\\.nuget\\packages\\microsoft.netcore.runtime.native\\1.0.1\\microsoft.netcore.runtime.native.1.0.1.nupkg.sha512",
-    "C:\\Users\\Jiawei Huang\\.nuget\\packages\\microsoft.netcore.targets\\1.0.0\\microsoft.netcore.targets.1.0.0.nupkg.sha512",
-    "C:\\Users\\Jiawei Huang\\.nuget\\packages\\microsoft.netcore.targets.universalwindowsplatform\\5.0.0\\microsoft.netcore.targets.universalwindowsplatform.5.0.0.nupkg.sha512",
+    "C:\\Users\\Jiawei Huang\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "C:\\Users\\Jiawei Huang\\.nuget\\packages\\microsoft.netcore.universalwindowsplatform\\5.1.0\\microsoft.netcore.universalwindowsplatform.5.1.0.nupkg.sha512",
     "C:\\Users\\Jiawei Huang\\.nuget\\packages\\microsoft.netcore.windows.apisets-x64\\1.0.0\\microsoft.netcore.windows.apisets-x64.1.0.0.nupkg.sha512",
     "C:\\Users\\Jiawei Huang\\.nuget\\packages\\microsoft.netcore.windows.apisets-x86\\1.0.0\\microsoft.netcore.windows.apisets-x86.1.0.0.nupkg.sha512",
@@ -21,16 +20,58 @@
     "C:\\Users\\Jiawei Huang\\.nuget\\packages\\microsoft.win32.primitives\\4.0.0\\microsoft.win32.primitives.4.0.0.nupkg.sha512",
     "C:\\Users\\Jiawei Huang\\.nuget\\packages\\microsoft.xaml.behaviors.uwp.managed\\1.1.0\\microsoft.xaml.behaviors.uwp.managed.1.1.0.nupkg.sha512",
     "C:\\Users\\Jiawei Huang\\.nuget\\packages\\newtonsoft.json\\9.0.1\\newtonsoft.json.9.0.1.nupkg.sha512",
+    "C:\\Users\\Jiawei Huang\\.nuget\\packages\\runtime.any.system.collections\\4.3.0\\runtime.any.system.collections.4.3.0.nupkg.sha512",
+    "C:\\Users\\Jiawei Huang\\.nuget\\packages\\runtime.any.system.diagnostics.tools\\4.3.0\\runtime.any.system.diagnostics.tools.4.3.0.nupkg.sha512",
+    "C:\\Users\\Jiawei Huang\\.nuget\\packages\\runtime.any.system.diagnostics.tracing\\4.3.0\\runtime.any.system.diagnostics.tracing.4.3.0.nupkg.sha512",
+    "C:\\Users\\Jiawei Huang\\.nuget\\packages\\runtime.any.system.globalization\\4.3.0\\runtime.any.system.globalization.4.3.0.nupkg.sha512",
+    "C:\\Users\\Jiawei Huang\\.nuget\\packages\\runtime.any.system.globalization.calendars\\4.3.0\\runtime.any.system.globalization.calendars.4.3.0.nupkg.sha512",
+    "C:\\Users\\Jiawei Huang\\.nuget\\packages\\runtime.any.system.io\\4.3.0\\runtime.any.system.io.4.3.0.nupkg.sha512",
     "C:\\Users\\Jiawei Huang\\.nuget\\packages\\runtime.any.system.private.datacontractserialization\\4.1.0\\runtime.any.system.private.datacontractserialization.4.1.0.nupkg.sha512",
+    "C:\\Users\\Jiawei Huang\\.nuget\\packages\\runtime.any.system.reflection\\4.3.0\\runtime.any.system.reflection.4.3.0.nupkg.sha512",
+    "C:\\Users\\Jiawei Huang\\.nuget\\packages\\runtime.any.system.reflection.extensions\\4.3.0\\runtime.any.system.reflection.extensions.4.3.0.nupkg.sha512",
+    "C:\\Users\\Jiawei Huang\\.nuget\\packages\\runtime.any.system.reflection.primitives\\4.3.0\\runtime.any.system.reflection.primitives.4.3.0.nupkg.sha512",
+    "C:\\Users\\Jiawei Huang\\.nuget\\packages\\runtime.any.system.resources.resourcemanager\\4.3.0\\runtime.any.system.resources.resourcemanager.4.3.0.nupkg.sha512",
+    "C:\\Users\\Jiawei Huang\\.nuget\\packages\\runtime.any.system.runtime\\4.3.0\\runtime.any.system.runtime.4.3.0.nupkg.sha512",
+    "C:\\Users\\Jiawei Huang\\.nuget\\packages\\runtime.any.system.runtime.handles\\4.3.0\\runtime.any.system.runtime.handles.4.3.0.nupkg.sha512",
+    "C:\\Users\\Jiawei Huang\\.nuget\\packages\\runtime.any.system.runtime.interopservices\\4.3.0\\runtime.any.system.runtime.interopservices.4.3.0.nupkg.sha512",
+    "C:\\Users\\Jiawei Huang\\.nuget\\packages\\runtime.any.system.text.encoding\\4.3.0\\runtime.any.system.text.encoding.4.3.0.nupkg.sha512",
+    "C:\\Users\\Jiawei Huang\\.nuget\\packages\\runtime.any.system.text.encoding.extensions\\4.3.0\\runtime.any.system.text.encoding.extensions.4.3.0.nupkg.sha512",
+    "C:\\Users\\Jiawei Huang\\.nuget\\packages\\runtime.any.system.threading.tasks\\4.3.0\\runtime.any.system.threading.tasks.4.3.0.nupkg.sha512",
+    "C:\\Users\\Jiawei Huang\\.nuget\\packages\\runtime.any.system.threading.timer\\4.3.0\\runtime.any.system.threading.timer.4.3.0.nupkg.sha512",
+    "C:\\Users\\Jiawei Huang\\.nuget\\packages\\runtime.aot.system.collections\\4.3.0\\runtime.aot.system.collections.4.3.0.nupkg.sha512",
+    "C:\\Users\\Jiawei Huang\\.nuget\\packages\\runtime.aot.system.diagnostics.tools\\4.3.0\\runtime.aot.system.diagnostics.tools.4.3.0.nupkg.sha512",
+    "C:\\Users\\Jiawei Huang\\.nuget\\packages\\runtime.aot.system.diagnostics.tracing\\4.3.0\\runtime.aot.system.diagnostics.tracing.4.3.0.nupkg.sha512",
+    "C:\\Users\\Jiawei Huang\\.nuget\\packages\\runtime.aot.system.globalization\\4.3.0\\runtime.aot.system.globalization.4.3.0.nupkg.sha512",
+    "C:\\Users\\Jiawei Huang\\.nuget\\packages\\runtime.aot.system.globalization.calendars\\4.3.0\\runtime.aot.system.globalization.calendars.4.3.0.nupkg.sha512",
+    "C:\\Users\\Jiawei Huang\\.nuget\\packages\\runtime.aot.system.io\\4.3.0\\runtime.aot.system.io.4.3.0.nupkg.sha512",
     "C:\\Users\\Jiawei Huang\\.nuget\\packages\\runtime.aot.system.private.datacontractserialization\\4.1.0\\runtime.aot.system.private.datacontractserialization.4.1.0.nupkg.sha512",
+    "C:\\Users\\Jiawei Huang\\.nuget\\packages\\runtime.aot.system.reflection\\4.3.0\\runtime.aot.system.reflection.4.3.0.nupkg.sha512",
+    "C:\\Users\\Jiawei Huang\\.nuget\\packages\\runtime.aot.system.reflection.extensions\\4.3.0\\runtime.aot.system.reflection.extensions.4.3.0.nupkg.sha512",
+    "C:\\Users\\Jiawei Huang\\.nuget\\packages\\runtime.aot.system.reflection.primitives\\4.3.0\\runtime.aot.system.reflection.primitives.4.3.0.nupkg.sha512",
+    "C:\\Users\\Jiawei Huang\\.nuget\\packages\\runtime.aot.system.resources.resourcemanager\\4.3.0\\runtime.aot.system.resources.resourcemanager.4.3.0.nupkg.sha512",
+    "C:\\Users\\Jiawei Huang\\.nuget\\packages\\runtime.aot.system.runtime\\4.3.0\\runtime.aot.system.runtime.4.3.0.nupkg.sha512",
+    "C:\\Users\\Jiawei Huang\\.nuget\\packages\\runtime.aot.system.runtime.handles\\4.3.0\\runtime.aot.system.runtime.handles.4.3.0.nupkg.sha512",
+    "C:\\Users\\Jiawei Huang\\.nuget\\packages\\runtime.aot.system.runtime.interopservices\\4.3.0\\runtime.aot.system.runtime.interopservices.4.3.0.nupkg.sha512",
+    "C:\\Users\\Jiawei Huang\\.nuget\\packages\\runtime.aot.system.text.encoding\\4.3.0\\runtime.aot.system.text.encoding.4.3.0.nupkg.sha512",
+    "C:\\Users\\Jiawei Huang\\.nuget\\packages\\runtime.aot.system.text.encoding.extensions\\4.3.0\\runtime.aot.system.text.encoding.extensions.4.3.0.nupkg.sha512",
+    "C:\\Users\\Jiawei Huang\\.nuget\\packages\\runtime.aot.system.threading.tasks\\4.3.0\\runtime.aot.system.threading.tasks.4.3.0.nupkg.sha512",
+    "C:\\Users\\Jiawei Huang\\.nuget\\packages\\runtime.aot.system.threading.timer\\4.3.0\\runtime.aot.system.threading.timer.4.3.0.nupkg.sha512",
+    "C:\\Users\\Jiawei Huang\\.nuget\\packages\\runtime.win.microsoft.win32.primitives\\4.3.0\\runtime.win.microsoft.win32.primitives.4.3.0.nupkg.sha512",
+    "C:\\Users\\Jiawei Huang\\.nuget\\packages\\runtime.win.system.diagnostics.debug\\4.3.0\\runtime.win.system.diagnostics.debug.4.3.0.nupkg.sha512",
+    "C:\\Users\\Jiawei Huang\\.nuget\\packages\\runtime.win.system.io.filesystem\\4.3.0\\runtime.win.system.io.filesystem.4.3.0.nupkg.sha512",
+    "C:\\Users\\Jiawei Huang\\.nuget\\packages\\runtime.win.system.net.primitives\\4.3.0\\runtime.win.system.net.primitives.4.3.0.nupkg.sha512",
+    "C:\\Users\\Jiawei Huang\\.nuget\\packages\\runtime.win.system.net.sockets\\4.3.0\\runtime.win.system.net.sockets.4.3.0.nupkg.sha512",
+    "C:\\Users\\Jiawei Huang\\.nuget\\packages\\runtime.win.system.runtime.extensions\\4.3.0\\runtime.win.system.runtime.extensions.4.3.0.nupkg.sha512",
     "C:\\Users\\Jiawei Huang\\.nuget\\packages\\runtime.win7-x64.microsoft.netcore.runtime.coreclr\\1.0.1\\runtime.win7-x64.microsoft.netcore.runtime.coreclr.1.0.1.nupkg.sha512",
     "C:\\Users\\Jiawei Huang\\.nuget\\packages\\runtime.win7-x86.microsoft.netcore.runtime.coreclr\\1.0.1\\runtime.win7-x86.microsoft.netcore.runtime.coreclr.1.0.1.nupkg.sha512",
+    "C:\\Users\\Jiawei Huang\\.nuget\\packages\\runtime.win7.system.private.uri\\4.3.0\\runtime.win7.system.private.uri.4.3.0.nupkg.sha512",
     "C:\\Users\\Jiawei Huang\\.nuget\\packages\\runtime.win8-arm.microsoft.netcore.runtime.coreclr\\1.0.1\\runtime.win8-arm.microsoft.netcore.runtime.coreclr.1.0.1.nupkg.sha512",
     "C:\\Users\\Jiawei Huang\\.nuget\\packages\\sqlite\\3.13.0\\sqlite.3.13.0.nupkg.sha512",
     "C:\\Users\\Jiawei Huang\\.nuget\\packages\\sqlite.net-pcl\\3.1.1\\sqlite.net-pcl.3.1.1.nupkg.sha512",
     "C:\\Users\\Jiawei Huang\\.nuget\\packages\\sqlite.net.core-pcl\\3.1.1\\sqlite.net.core-pcl.3.1.1.nupkg.sha512",
     "C:\\Users\\Jiawei Huang\\.nuget\\packages\\system.appcontext\\4.0.0\\system.appcontext.4.0.0.nupkg.sha512",
-    "C:\\Users\\Jiawei Huang\\.nuget\\packages\\system.collections\\4.0.10\\system.collections.4.0.10.nupkg.sha512",
+    "C:\\Users\\Jiawei Huang\\.nuget\\packages\\system.buffers\\4.3.0\\system.buffers.4.3.0.nupkg.sha512",
+    "C:\\Users\\Jiawei Huang\\.nuget\\packages\\system.collections\\4.3.0\\system.collections.4.3.0.nupkg.sha512",
     "C:\\Users\\Jiawei Huang\\.nuget\\packages\\system.collections.concurrent\\4.0.10\\system.collections.concurrent.4.0.10.nupkg.sha512",
     "C:\\Users\\Jiawei Huang\\.nuget\\packages\\system.collections.immutable\\1.1.37\\system.collections.immutable.1.1.37.nupkg.sha512",
     "C:\\Users\\Jiawei Huang\\.nuget\\packages\\system.collections.nongeneric\\4.0.0\\system.collections.nongeneric.4.0.0.nupkg.sha512",
@@ -40,32 +81,37 @@
     "C:\\Users\\Jiawei Huang\\.nuget\\packages\\system.componentmodel.eventbasedasync\\4.0.10\\system.componentmodel.eventbasedasync.4.0.10.nupkg.sha512",
     "C:\\Users\\Jiawei Huang\\.nuget\\packages\\system.data.common\\4.0.0\\system.data.common.4.0.0.nupkg.sha512",
     "C:\\Users\\Jiawei Huang\\.nuget\\packages\\system.diagnostics.contracts\\4.0.0\\system.diagnostics.contracts.4.0.0.nupkg.sha512",
-    "C:\\Users\\Jiawei Huang\\.nuget\\packages\\system.diagnostics.debug\\4.0.10\\system.diagnostics.debug.4.0.10.nupkg.sha512",
+    "C:\\Users\\Jiawei Huang\\.nuget\\packages\\system.diagnostics.debug\\4.3.0\\system.diagnostics.debug.4.3.0.nupkg.sha512",
     "C:\\Users\\Jiawei Huang\\.nuget\\packages\\system.diagnostics.stacktrace\\4.0.0\\system.diagnostics.stacktrace.4.0.0.nupkg.sha512",
     "C:\\Users\\Jiawei Huang\\.nuget\\packages\\system.diagnostics.tools\\4.0.0\\system.diagnostics.tools.4.0.0.nupkg.sha512",
     "C:\\Users\\Jiawei Huang\\.nuget\\packages\\system.diagnostics.tracing\\4.0.20\\system.diagnostics.tracing.4.0.20.nupkg.sha512",
+    "C:\\Users\\Jiawei Huang\\.nuget\\packages\\system.diagnostics.tracing\\4.3.0\\system.diagnostics.tracing.4.3.0.nupkg.sha512",
     "C:\\Users\\Jiawei Huang\\.nuget\\packages\\system.dynamic.runtime\\4.0.10\\system.dynamic.runtime.4.0.10.nupkg.sha512",
-    "C:\\Users\\Jiawei Huang\\.nuget\\packages\\system.globalization\\4.0.10\\system.globalization.4.0.10.nupkg.sha512",
+    "C:\\Users\\Jiawei Huang\\.nuget\\packages\\system.globalization\\4.3.0\\system.globalization.4.3.0.nupkg.sha512",
     "C:\\Users\\Jiawei Huang\\.nuget\\packages\\system.globalization.calendars\\4.0.0\\system.globalization.calendars.4.0.0.nupkg.sha512",
     "C:\\Users\\Jiawei Huang\\.nuget\\packages\\system.globalization.extensions\\4.0.0\\system.globalization.extensions.4.0.0.nupkg.sha512",
-    "C:\\Users\\Jiawei Huang\\.nuget\\packages\\system.io\\4.0.10\\system.io.4.0.10.nupkg.sha512",
+    "C:\\Users\\Jiawei Huang\\.nuget\\packages\\system.io\\4.3.0\\system.io.4.3.0.nupkg.sha512",
     "C:\\Users\\Jiawei Huang\\.nuget\\packages\\system.io.compression\\4.0.0\\system.io.compression.4.0.0.nupkg.sha512",
     "C:\\Users\\Jiawei Huang\\.nuget\\packages\\system.io.compression.clrcompression-arm\\4.0.0\\system.io.compression.clrcompression-arm.4.0.0.nupkg.sha512",
     "C:\\Users\\Jiawei Huang\\.nuget\\packages\\system.io.compression.clrcompression-x64\\4.0.0\\system.io.compression.clrcompression-x64.4.0.0.nupkg.sha512",
     "C:\\Users\\Jiawei Huang\\.nuget\\packages\\system.io.compression.clrcompression-x86\\4.0.0\\system.io.compression.clrcompression-x86.4.0.0.nupkg.sha512",
     "C:\\Users\\Jiawei Huang\\.nuget\\packages\\system.io.compression.zipfile\\4.0.0\\system.io.compression.zipfile.4.0.0.nupkg.sha512",
     "C:\\Users\\Jiawei Huang\\.nuget\\packages\\system.io.filesystem\\4.0.0\\system.io.filesystem.4.0.0.nupkg.sha512",
+    "C:\\Users\\Jiawei Huang\\.nuget\\packages\\system.io.filesystem\\4.3.0\\system.io.filesystem.4.3.0.nupkg.sha512",
     "C:\\Users\\Jiawei Huang\\.nuget\\packages\\system.io.filesystem.primitives\\4.0.0\\system.io.filesystem.primitives.4.0.0.nupkg.sha512",
+    "C:\\Users\\Jiawei Huang\\.nuget\\packages\\system.io.filesystem.primitives\\4.3.0\\system.io.filesystem.primitives.4.3.0.nupkg.sha512",
     "C:\\Users\\Jiawei Huang\\.nuget\\packages\\system.io.isolatedstorage\\4.0.0\\system.io.isolatedstorage.4.0.0.nupkg.sha512",
     "C:\\Users\\Jiawei Huang\\.nuget\\packages\\system.io.unmanagedmemorystream\\4.0.0\\system.io.unmanagedmemorystream.4.0.0.nupkg.sha512",
-    "C:\\Users\\Jiawei Huang\\.nuget\\packages\\system.linq\\4.0.0\\system.linq.4.0.0.nupkg.sha512",
+    "C:\\Users\\Jiawei Huang\\.nuget\\packages\\system.linq\\4.3.0\\system.linq.4.3.0.nupkg.sha512",
     "C:\\Users\\Jiawei Huang\\.nuget\\packages\\system.linq.expressions\\4.0.10\\system.linq.expressions.4.0.10.nupkg.sha512",
     "C:\\Users\\Jiawei Huang\\.nuget\\packages\\system.linq.parallel\\4.0.0\\system.linq.parallel.4.0.0.nupkg.sha512",
     "C:\\Users\\Jiawei Huang\\.nuget\\packages\\system.linq.queryable\\4.0.0\\system.linq.queryable.4.0.0.nupkg.sha512",
     "C:\\Users\\Jiawei Huang\\.nuget\\packages\\system.net.http\\4.0.0\\system.net.http.4.0.0.nupkg.sha512",
     "C:\\Users\\Jiawei Huang\\.nuget\\packages\\system.net.http.rtc\\4.0.0\\system.net.http.rtc.4.0.0.nupkg.sha512",
+    "C:\\Users\\Jiawei Huang\\.nuget\\packages\\system.net.nameresolution\\4.3.0\\system.net.nameresolution.4.3.0.nupkg.sha512",
     "C:\\Users\\Jiawei Huang\\.nuget\\packages\\system.net.networkinformation\\4.0.0\\system.net.networkinformation.4.0.0.nupkg.sha512",
     "C:\\Users\\Jiawei Huang\\.nuget\\packages\\system.net.primitives\\4.0.10\\system.net.primitives.4.0.10.nupkg.sha512",
+    "C:\\Users\\Jiawei Huang\\.nuget\\packages\\system.net.primitives\\4.3.0\\system.net.primitives.4.3.0.nupkg.sha512",
     "C:\\Users\\Jiawei Huang\\.nuget\\packages\\system.net.requests\\4.0.10\\system.net.requests.4.0.10.nupkg.sha512",
     "C:\\Users\\Jiawei Huang\\.nuget\\packages\\system.net.sockets\\4.0.0\\system.net.sockets.4.0.0.nupkg.sha512",
     "C:\\Users\\Jiawei Huang\\.nuget\\packages\\system.net.webheadercollection\\4.0.0\\system.net.webheadercollection.4.0.0.nupkg.sha512",
@@ -75,22 +121,26 @@
     "C:\\Users\\Jiawei Huang\\.nuget\\packages\\system.private.datacontractserialization\\4.1.0\\system.private.datacontractserialization.4.1.0.nupkg.sha512",
     "C:\\Users\\Jiawei Huang\\.nuget\\packages\\system.private.networking\\4.0.0\\system.private.networking.4.0.0.nupkg.sha512",
     "C:\\Users\\Jiawei Huang\\.nuget\\packages\\system.private.servicemodel\\4.0.0\\system.private.servicemodel.4.0.0.nupkg.sha512",
-    "C:\\Users\\Jiawei Huang\\.nuget\\packages\\system.private.uri\\4.0.0\\system.private.uri.4.0.0.nupkg.sha512",
-    "C:\\Users\\Jiawei Huang\\.nuget\\packages\\system.reflection\\4.0.10\\system.reflection.4.0.10.nupkg.sha512",
+    "C:\\Users\\Jiawei Huang\\.nuget\\packages\\system.private.uri\\4.3.0\\system.private.uri.4.3.0.nupkg.sha512",
+    "C:\\Users\\Jiawei Huang\\.nuget\\packages\\system.reflection\\4.3.0\\system.reflection.4.3.0.nupkg.sha512",
     "C:\\Users\\Jiawei Huang\\.nuget\\packages\\system.reflection.context\\4.0.0\\system.reflection.context.4.0.0.nupkg.sha512",
     "C:\\Users\\Jiawei Huang\\.nuget\\packages\\system.reflection.dispatchproxy\\4.0.0\\system.reflection.dispatchproxy.4.0.0.nupkg.sha512",
     "C:\\Users\\Jiawei Huang\\.nuget\\packages\\system.reflection.emit\\4.0.0\\system.reflection.emit.4.0.0.nupkg.sha512",
     "C:\\Users\\Jiawei Huang\\.nuget\\packages\\system.reflection.emit.ilgeneration\\4.0.0\\system.reflection.emit.ilgeneration.4.0.0.nupkg.sha512",
     "C:\\Users\\Jiawei Huang\\.nuget\\packages\\system.reflection.emit.lightweight\\4.0.0\\system.reflection.emit.lightweight.4.0.0.nupkg.sha512",
     "C:\\Users\\Jiawei Huang\\.nuget\\packages\\system.reflection.extensions\\4.0.0\\system.reflection.extensions.4.0.0.nupkg.sha512",
+    "C:\\Users\\Jiawei Huang\\.nuget\\packages\\system.reflection.extensions\\4.3.0\\system.reflection.extensions.4.3.0.nupkg.sha512",
     "C:\\Users\\Jiawei Huang\\.nuget\\packages\\system.reflection.metadata\\1.0.22\\system.reflection.metadata.1.0.22.nupkg.sha512",
-    "C:\\Users\\Jiawei Huang\\.nuget\\packages\\system.reflection.primitives\\4.0.0\\system.reflection.primitives.4.0.0.nupkg.sha512",
+    "C:\\Users\\Jiawei Huang\\.nuget\\packages\\system.reflection.primitives\\4.3.0\\system.reflection.primitives.4.3.0.nupkg.sha512",
     "C:\\Users\\Jiawei Huang\\.nuget\\packages\\system.reflection.typeextensions\\4.0.0\\system.reflection.typeextensions.4.0.0.nupkg.sha512",
-    "C:\\Users\\Jiawei Huang\\.nuget\\packages\\system.resources.resourcemanager\\4.0.0\\system.resources.resourcemanager.4.0.0.nupkg.sha512",
-    "C:\\Users\\Jiawei Huang\\.nuget\\packages\\system.runtime\\4.0.20\\system.runtime.4.0.20.nupkg.sha512",
-    "C:\\Users\\Jiawei Huang\\.nuget\\packages\\system.runtime.extensions\\4.0.10\\system.runtime.extensions.4.0.10.nupkg.sha512",
+    "C:\\Users\\Jiawei Huang\\.nuget\\packages\\system.reflection.typeextensions\\4.3.0\\system.reflection.typeextensions.4.3.0.nupkg.sha512",
+    "C:\\Users\\Jiawei Huang\\.nuget\\packages\\system.resources.resourcemanager\\4.3.0\\system.resources.resourcemanager.4.3.0.nupkg.sha512",
+    "C:\\Users\\Jiawei Huang\\.nuget\\packages\\system.runtime\\4.3.0\\system.runtime.4.3.0.nupkg.sha512",
+    "C:\\Users\\Jiawei Huang\\.nuget\\packages\\system.runtime.extensions\\4.3.0\\system.runtime.extensions.4.3.0.nupkg.sha512",
     "C:\\Users\\Jiawei Huang\\.nuget\\packages\\system.runtime.handles\\4.0.0\\system.runtime.handles.4.0.0.nupkg.sha512",
+    "C:\\Users\\Jiawei Huang\\.nuget\\packages\\system.runtime.handles\\4.3.0\\system.runtime.handles.4.3.0.nupkg.sha512",
     "C:\\Users\\Jiawei Huang\\.nuget\\packages\\system.runtime.interopservices\\4.0.20\\system.runtime.interopservices.4.0.20.nupkg.sha512",
+    "C:\\Users\\Jiawei Huang\\.nuget\\packages\\system.runtime.interopservices\\4.3.0\\system.runtime.interopservices.4.3.0.nupkg.sha512",
     "C:\\Users\\Jiawei Huang\\.nuget\\packages\\system.runtime.interopservices.windowsruntime\\4.0.0\\system.runtime.interopservices.windowsruntime.4.0.0.nupkg.sha512",
     "C:\\Users\\Jiawei Huang\\.nuget\\packages\\system.runtime.numerics\\4.0.0\\system.runtime.numerics.4.0.0.nupkg.sha512",
     "C:\\Users\\Jiawei Huang\\.nuget\\packages\\system.runtime.serialization.json\\4.0.1\\system.runtime.serialization.json.4.0.1.nupkg.sha512",
@@ -105,13 +155,16 @@
     "C:\\Users\\Jiawei Huang\\.nuget\\packages\\system.servicemodel.nettcp\\4.0.0\\system.servicemodel.nettcp.4.0.0.nupkg.sha512",
     "C:\\Users\\Jiawei Huang\\.nuget\\packages\\system.servicemodel.primitives\\4.0.0\\system.servicemodel.primitives.4.0.0.nupkg.sha512",
     "C:\\Users\\Jiawei Huang\\.nuget\\packages\\system.servicemodel.security\\4.0.0\\system.servicemodel.security.4.0.0.nupkg.sha512",
-    "C:\\Users\\Jiawei Huang\\.nuget\\packages\\system.text.encoding\\4.0.10\\system.text.encoding.4.0.10.nupkg.sha512",
+    "C:\\Users\\Jiawei Huang\\.nuget\\packages\\system.text.encoding\\4.3.0\\system.text.encoding.4.3.0.nupkg.sha512",
     "C:\\Users\\Jiawei Huang\\.nuget\\packages\\system.text.encoding.codepages\\4.0.0\\system.text.encoding.codepages.4.0.0.nupkg.sha512",
     "C:\\Users\\Jiawei Huang\\.nuget\\packages\\system.text.encoding.extensions\\4.0.10\\system.text.encoding.extensions.4.0.10.nupkg.sha512",
+    "C:\\Users\\Jiawei Huang\\.nuget\\packages\\system.text.encoding.extensions\\4.3.0\\system.text.encoding.extensions.4.3.0.nupkg.sha512",
     "C:\\Users\\Jiawei Huang\\.nuget\\packages\\system.text.regularexpressions\\4.0.10\\system.text.regularexpressions.4.0.10.nupkg.sha512",
     "C:\\Users\\Jiawei Huang\\.nuget\\packages\\system.threading\\4.0.10\\system.threading.4.0.10.nupkg.sha512",
+    "C:\\Users\\Jiawei Huang\\.nuget\\packages\\system.threading\\4.3.0\\system.threading.4.3.0.nupkg.sha512",
     "C:\\Users\\Jiawei Huang\\.nuget\\packages\\system.threading.overlapped\\4.0.0\\system.threading.overlapped.4.0.0.nupkg.sha512",
-    "C:\\Users\\Jiawei Huang\\.nuget\\packages\\system.threading.tasks\\4.0.10\\system.threading.tasks.4.0.10.nupkg.sha512",
+    "C:\\Users\\Jiawei Huang\\.nuget\\packages\\system.threading.overlapped\\4.3.0\\system.threading.overlapped.4.3.0.nupkg.sha512",
+    "C:\\Users\\Jiawei Huang\\.nuget\\packages\\system.threading.tasks\\4.3.0\\system.threading.tasks.4.3.0.nupkg.sha512",
     "C:\\Users\\Jiawei Huang\\.nuget\\packages\\system.threading.tasks.dataflow\\4.5.25\\system.threading.tasks.dataflow.4.5.25.nupkg.sha512",
     "C:\\Users\\Jiawei Huang\\.nuget\\packages\\system.threading.tasks.parallel\\4.0.0\\system.threading.tasks.parallel.4.0.0.nupkg.sha512",
     "C:\\Users\\Jiawei Huang\\.nuget\\packages\\system.threading.timer\\4.0.0\\system.threading.timer.4.0.0.nupkg.sha512",
@@ -121,5 +174,441 @@
     "C:\\Users\\Jiawei Huang\\.nuget\\packages\\system.xml.xmlserializer\\4.0.10\\system.xml.xmlserializer.4.0.10.nupkg.sha512",
     "C:\\Users\\Jiawei Huang\\.nuget\\packages\\template10\\1.1.11\\template10.1.1.11.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1605",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package downgrade: System.Runtime.WindowsRuntime from 4.3.0 to 4.0.10. Reference the package directly from the project to select a different version. \r\n Start Finance -> Microsoft.NETCore.UniversalWindowsPlatform 5.1.0 -> Microsoft.NETCore 5.0.0 -> System.IO.FileSystem 4.0.0 -> runtime.win.System.IO.FileSystem 4.3.0 -> System.Runtime.WindowsRuntime (>= 4.3.0) \r\n Start Finance -> Microsoft.NETCore.UniversalWindowsPlatform 5.1.0 -> System.Runtime.WindowsRuntime (>= 4.0.10)",
+      "libraryId": "System.Runtime.WindowsRuntime",
+      "targetGraphs": [
+        "UAP,Version=v10.0.16299/win10-arm",
+        "UAP,Version=v10.0.16299/win10-arm-aot",
+        "UAP,Version=v10.0.16299/win10-x64",
+        "UAP,Version=v10.0.16299/win10-x64-aot",
+        "UAP,Version=v10.0.16299/win10-x86",
+        "UAP,Version=v10.0.16299/win10-x86-aot"
+      ]
+    },
+    {
+      "code": "NU1605",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package downgrade: Microsoft.Win32.Primitives from 4.3.0 to 4.0.0. Reference the package directly from the project to select a different version. \r\n Start Finance -> Microsoft.NETCore.UniversalWindowsPlatform 5.1.0 -> Microsoft.NETCore 5.0.0 -> System.Net.Primitives 4.0.10 -> runtime.win.System.Net.Primitives 4.3.0 -> Microsoft.Win32.Primitives (>= 4.3.0) \r\n Start Finance -> Microsoft.NETCore.UniversalWindowsPlatform 5.1.0 -> Microsoft.Win32.Primitives (>= 4.0.0)",
+      "libraryId": "Microsoft.Win32.Primitives",
+      "targetGraphs": [
+        "UAP,Version=v10.0.16299/win10-arm",
+        "UAP,Version=v10.0.16299/win10-arm-aot",
+        "UAP,Version=v10.0.16299/win10-x64",
+        "UAP,Version=v10.0.16299/win10-x64-aot",
+        "UAP,Version=v10.0.16299/win10-x86",
+        "UAP,Version=v10.0.16299/win10-x86-aot"
+      ]
+    },
+    {
+      "code": "NU1605",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package downgrade: System.Runtime.WindowsRuntime from 4.3.0 to 4.0.10. Reference the package directly from the project to select a different version. \r\n Start Finance -> Microsoft.NETCore.UniversalWindowsPlatform 5.1.0 -> System.IO.IsolatedStorage 4.0.0 -> System.IO.FileSystem 4.0.0 -> runtime.win.System.IO.FileSystem 4.3.0 -> System.Runtime.WindowsRuntime (>= 4.3.0) \r\n Start Finance -> Microsoft.NETCore.UniversalWindowsPlatform 5.1.0 -> System.Runtime.WindowsRuntime (>= 4.0.10)",
+      "libraryId": "System.Runtime.WindowsRuntime",
+      "targetGraphs": [
+        "UAP,Version=v10.0.16299/win10-arm",
+        "UAP,Version=v10.0.16299/win10-arm-aot",
+        "UAP,Version=v10.0.16299/win10-x64",
+        "UAP,Version=v10.0.16299/win10-x64-aot",
+        "UAP,Version=v10.0.16299/win10-x86",
+        "UAP,Version=v10.0.16299/win10-x86-aot"
+      ]
+    },
+    {
+      "code": "NU1605",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package downgrade: Microsoft.Win32.Primitives from 4.3.0 to 4.0.0. Reference the package directly from the project to select a different version. \r\n Start Finance -> Microsoft.NETCore.UniversalWindowsPlatform 5.1.0 -> System.Net.Requests 4.0.10 -> System.Net.Primitives 4.0.10 -> runtime.win.System.Net.Primitives 4.3.0 -> Microsoft.Win32.Primitives (>= 4.3.0) \r\n Start Finance -> Microsoft.NETCore.UniversalWindowsPlatform 5.1.0 -> Microsoft.Win32.Primitives (>= 4.0.0)",
+      "libraryId": "Microsoft.Win32.Primitives",
+      "targetGraphs": [
+        "UAP,Version=v10.0.16299/win10-arm",
+        "UAP,Version=v10.0.16299/win10-arm-aot",
+        "UAP,Version=v10.0.16299/win10-x64",
+        "UAP,Version=v10.0.16299/win10-x64-aot",
+        "UAP,Version=v10.0.16299/win10-x86",
+        "UAP,Version=v10.0.16299/win10-x86-aot"
+      ]
+    },
+    {
+      "code": "NU1605",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package downgrade: Microsoft.Win32.Primitives from 4.3.0 to 4.0.0. Reference the package directly from the project to select a different version. \r\n Start Finance -> Microsoft.NETCore.UniversalWindowsPlatform 5.1.0 -> System.Net.Http.Rtc 4.0.0 -> System.Net.Http 4.0.0 -> System.Net.Primitives 4.0.0 -> runtime.win.System.Net.Primitives 4.3.0 -> Microsoft.Win32.Primitives (>= 4.3.0) \r\n Start Finance -> Microsoft.NETCore.UniversalWindowsPlatform 5.1.0 -> Microsoft.Win32.Primitives (>= 4.0.0)",
+      "libraryId": "Microsoft.Win32.Primitives",
+      "targetGraphs": [
+        "UAP,Version=v10.0.16299/win10-arm",
+        "UAP,Version=v10.0.16299/win10-arm-aot",
+        "UAP,Version=v10.0.16299/win10-x64",
+        "UAP,Version=v10.0.16299/win10-x64-aot",
+        "UAP,Version=v10.0.16299/win10-x86",
+        "UAP,Version=v10.0.16299/win10-x86-aot"
+      ]
+    },
+    {
+      "code": "NU1605",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package downgrade: System.Runtime.WindowsRuntime from 4.3.0 to 4.0.10. Reference the package directly from the project to select a different version. \r\n Start Finance -> Microsoft.NETCore.UniversalWindowsPlatform 5.1.0 -> System.Net.Sockets 4.0.0 -> runtime.win.System.Net.Sockets 4.3.0 -> System.IO.FileSystem 4.3.0 -> runtime.win.System.IO.FileSystem 4.3.0 -> System.Runtime.WindowsRuntime (>= 4.3.0) \r\n Start Finance -> Microsoft.NETCore.UniversalWindowsPlatform 5.1.0 -> System.Runtime.WindowsRuntime (>= 4.0.10)",
+      "libraryId": "System.Runtime.WindowsRuntime",
+      "targetGraphs": [
+        "UAP,Version=v10.0.16299/win10-arm",
+        "UAP,Version=v10.0.16299/win10-arm-aot",
+        "UAP,Version=v10.0.16299/win10-x64",
+        "UAP,Version=v10.0.16299/win10-x64-aot",
+        "UAP,Version=v10.0.16299/win10-x86",
+        "UAP,Version=v10.0.16299/win10-x86-aot"
+      ]
+    },
+    {
+      "code": "NU1605",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package downgrade: Microsoft.Win32.Primitives from 4.3.0 to 4.0.0. Reference the package directly from the project to select a different version. \r\n Start Finance -> Microsoft.NETCore.UniversalWindowsPlatform 5.1.0 -> System.Net.Sockets 4.0.0 -> runtime.win.System.Net.Sockets 4.3.0 -> System.Net.Primitives 4.3.0 -> runtime.win.System.Net.Primitives 4.3.0 -> Microsoft.Win32.Primitives (>= 4.3.0) \r\n Start Finance -> Microsoft.NETCore.UniversalWindowsPlatform 5.1.0 -> Microsoft.Win32.Primitives (>= 4.0.0)",
+      "libraryId": "Microsoft.Win32.Primitives",
+      "targetGraphs": [
+        "UAP,Version=v10.0.16299/win10-arm",
+        "UAP,Version=v10.0.16299/win10-arm-aot",
+        "UAP,Version=v10.0.16299/win10-x64",
+        "UAP,Version=v10.0.16299/win10-x64-aot",
+        "UAP,Version=v10.0.16299/win10-x86",
+        "UAP,Version=v10.0.16299/win10-x86-aot"
+      ]
+    },
+    {
+      "code": "NU1605",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package downgrade: System.Runtime.WindowsRuntime from 4.3.0 to 4.0.10. Reference the package directly from the project to select a different version. \r\n Start Finance -> Microsoft.NETCore.UniversalWindowsPlatform 5.1.0 -> System.Net.Sockets 4.0.0 -> System.Private.Networking 4.0.0 -> System.IO.FileSystem 4.0.0 -> runtime.win.System.IO.FileSystem 4.3.0 -> System.Runtime.WindowsRuntime (>= 4.3.0) \r\n Start Finance -> Microsoft.NETCore.UniversalWindowsPlatform 5.1.0 -> System.Runtime.WindowsRuntime (>= 4.0.10)",
+      "libraryId": "System.Runtime.WindowsRuntime",
+      "targetGraphs": [
+        "UAP,Version=v10.0.16299/win10-arm",
+        "UAP,Version=v10.0.16299/win10-arm-aot",
+        "UAP,Version=v10.0.16299/win10-x64",
+        "UAP,Version=v10.0.16299/win10-x64-aot",
+        "UAP,Version=v10.0.16299/win10-x86",
+        "UAP,Version=v10.0.16299/win10-x86-aot"
+      ]
+    },
+    {
+      "code": "NU1605",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package downgrade: Microsoft.Win32.Primitives from 4.3.0 to 4.0.0. Reference the package directly from the project to select a different version. \r\n Start Finance -> Microsoft.NETCore.UniversalWindowsPlatform 5.1.0 -> System.ServiceModel.Duplex 4.0.0 -> System.Private.ServiceModel 4.0.0 -> System.Net.Primitives 4.0.10 -> runtime.win.System.Net.Primitives 4.3.0 -> Microsoft.Win32.Primitives (>= 4.3.0) \r\n Start Finance -> Microsoft.NETCore.UniversalWindowsPlatform 5.1.0 -> Microsoft.Win32.Primitives (>= 4.0.0)",
+      "libraryId": "Microsoft.Win32.Primitives",
+      "targetGraphs": [
+        "UAP,Version=v10.0.16299/win10-arm",
+        "UAP,Version=v10.0.16299/win10-arm-aot",
+        "UAP,Version=v10.0.16299/win10-x64",
+        "UAP,Version=v10.0.16299/win10-x64-aot",
+        "UAP,Version=v10.0.16299/win10-x86",
+        "UAP,Version=v10.0.16299/win10-x86-aot"
+      ]
+    },
+    {
+      "code": "NU1605",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package downgrade: Microsoft.Win32.Primitives from 4.3.0 to 4.0.0. Reference the package directly from the project to select a different version. \r\n Start Finance -> Microsoft.NETCore.UniversalWindowsPlatform 5.1.0 -> System.ServiceModel.Http 4.0.10 -> System.Private.ServiceModel 4.0.0 -> System.Net.Primitives 4.0.10 -> runtime.win.System.Net.Primitives 4.3.0 -> Microsoft.Win32.Primitives (>= 4.3.0) \r\n Start Finance -> Microsoft.NETCore.UniversalWindowsPlatform 5.1.0 -> Microsoft.Win32.Primitives (>= 4.0.0)",
+      "libraryId": "Microsoft.Win32.Primitives",
+      "targetGraphs": [
+        "UAP,Version=v10.0.16299/win10-arm",
+        "UAP,Version=v10.0.16299/win10-arm-aot",
+        "UAP,Version=v10.0.16299/win10-x64",
+        "UAP,Version=v10.0.16299/win10-x64-aot",
+        "UAP,Version=v10.0.16299/win10-x86",
+        "UAP,Version=v10.0.16299/win10-x86-aot"
+      ]
+    },
+    {
+      "code": "NU1605",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package downgrade: Microsoft.Win32.Primitives from 4.3.0 to 4.0.0. Reference the package directly from the project to select a different version. \r\n Start Finance -> Microsoft.NETCore.UniversalWindowsPlatform 5.1.0 -> System.ServiceModel.NetTcp 4.0.0 -> System.Private.ServiceModel 4.0.0 -> System.Net.Primitives 4.0.10 -> runtime.win.System.Net.Primitives 4.3.0 -> Microsoft.Win32.Primitives (>= 4.3.0) \r\n Start Finance -> Microsoft.NETCore.UniversalWindowsPlatform 5.1.0 -> Microsoft.Win32.Primitives (>= 4.0.0)",
+      "libraryId": "Microsoft.Win32.Primitives",
+      "targetGraphs": [
+        "UAP,Version=v10.0.16299/win10-arm",
+        "UAP,Version=v10.0.16299/win10-arm-aot",
+        "UAP,Version=v10.0.16299/win10-x64",
+        "UAP,Version=v10.0.16299/win10-x64-aot",
+        "UAP,Version=v10.0.16299/win10-x86",
+        "UAP,Version=v10.0.16299/win10-x86-aot"
+      ]
+    },
+    {
+      "code": "NU1605",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package downgrade: Microsoft.Win32.Primitives from 4.3.0 to 4.0.0. Reference the package directly from the project to select a different version. \r\n Start Finance -> Microsoft.NETCore.UniversalWindowsPlatform 5.1.0 -> System.ServiceModel.Primitives 4.0.0 -> System.Private.ServiceModel 4.0.0 -> System.Net.Primitives 4.0.10 -> runtime.win.System.Net.Primitives 4.3.0 -> Microsoft.Win32.Primitives (>= 4.3.0) \r\n Start Finance -> Microsoft.NETCore.UniversalWindowsPlatform 5.1.0 -> Microsoft.Win32.Primitives (>= 4.0.0)",
+      "libraryId": "Microsoft.Win32.Primitives",
+      "targetGraphs": [
+        "UAP,Version=v10.0.16299/win10-arm",
+        "UAP,Version=v10.0.16299/win10-arm-aot",
+        "UAP,Version=v10.0.16299/win10-x64",
+        "UAP,Version=v10.0.16299/win10-x64-aot",
+        "UAP,Version=v10.0.16299/win10-x86",
+        "UAP,Version=v10.0.16299/win10-x86-aot"
+      ]
+    },
+    {
+      "code": "NU1605",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package downgrade: Microsoft.Win32.Primitives from 4.3.0 to 4.0.0. Reference the package directly from the project to select a different version. \r\n Start Finance -> Microsoft.NETCore.UniversalWindowsPlatform 5.1.0 -> System.ServiceModel.Security 4.0.0 -> System.Private.ServiceModel 4.0.0 -> System.Net.Primitives 4.0.10 -> runtime.win.System.Net.Primitives 4.3.0 -> Microsoft.Win32.Primitives (>= 4.3.0) \r\n Start Finance -> Microsoft.NETCore.UniversalWindowsPlatform 5.1.0 -> Microsoft.Win32.Primitives (>= 4.0.0)",
+      "libraryId": "Microsoft.Win32.Primitives",
+      "targetGraphs": [
+        "UAP,Version=v10.0.16299/win10-arm",
+        "UAP,Version=v10.0.16299/win10-arm-aot",
+        "UAP,Version=v10.0.16299/win10-x64",
+        "UAP,Version=v10.0.16299/win10-x64-aot",
+        "UAP,Version=v10.0.16299/win10-x86",
+        "UAP,Version=v10.0.16299/win10-x86-aot"
+      ]
+    },
+    {
+      "code": "NU1605",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package downgrade: System.Runtime.WindowsRuntime from 4.3.0 to 4.0.10. Reference the package directly from the project to select a different version. \r\n Start Finance -> Microsoft.NETCore.UniversalWindowsPlatform 5.1.0 -> System.Xml.XmlSerializer 4.0.10 -> System.Xml.ReaderWriter 4.0.10 -> System.IO.FileSystem 4.0.0 -> runtime.win.System.IO.FileSystem 4.3.0 -> System.Runtime.WindowsRuntime (>= 4.3.0) \r\n Start Finance -> Microsoft.NETCore.UniversalWindowsPlatform 5.1.0 -> System.Runtime.WindowsRuntime (>= 4.0.10)",
+      "libraryId": "System.Runtime.WindowsRuntime",
+      "targetGraphs": [
+        "UAP,Version=v10.0.16299/win10-arm",
+        "UAP,Version=v10.0.16299/win10-arm-aot",
+        "UAP,Version=v10.0.16299/win10-x64",
+        "UAP,Version=v10.0.16299/win10-x64-aot",
+        "UAP,Version=v10.0.16299/win10-x86",
+        "UAP,Version=v10.0.16299/win10-x86-aot"
+      ]
+    },
+    {
+      "code": "NU1605",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package downgrade: System.Runtime.WindowsRuntime from 4.3.0 to 4.0.10. Reference the package directly from the project to select a different version. \r\n Start Finance -> Microsoft.NETCore.UniversalWindowsPlatform 5.1.0 -> System.Net.Requests 4.0.10 -> System.Net.Primitives 4.0.10 -> System.Private.Networking 4.0.0 -> System.IO.FileSystem 4.0.0 -> runtime.win.System.IO.FileSystem 4.3.0 -> System.Runtime.WindowsRuntime (>= 4.3.0) \r\n Start Finance -> Microsoft.NETCore.UniversalWindowsPlatform 5.1.0 -> System.Runtime.WindowsRuntime (>= 4.0.10)",
+      "libraryId": "System.Runtime.WindowsRuntime",
+      "targetGraphs": [
+        "UAP,Version=v10.0.16299/win10-arm",
+        "UAP,Version=v10.0.16299/win10-arm-aot",
+        "UAP,Version=v10.0.16299/win10-x64",
+        "UAP,Version=v10.0.16299/win10-x64-aot",
+        "UAP,Version=v10.0.16299/win10-x86",
+        "UAP,Version=v10.0.16299/win10-x86-aot"
+      ]
+    },
+    {
+      "code": "NU1605",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package downgrade: System.Runtime.WindowsRuntime from 4.3.0 to 4.0.10. Reference the package directly from the project to select a different version. \r\n Start Finance -> Microsoft.NETCore.UniversalWindowsPlatform 5.1.0 -> System.ServiceModel.Duplex 4.0.0 -> System.Private.ServiceModel 4.0.0 -> System.Xml.ReaderWriter 4.0.10 -> System.IO.FileSystem 4.0.0 -> runtime.win.System.IO.FileSystem 4.3.0 -> System.Runtime.WindowsRuntime (>= 4.3.0) \r\n Start Finance -> Microsoft.NETCore.UniversalWindowsPlatform 5.1.0 -> System.Runtime.WindowsRuntime (>= 4.0.10)",
+      "libraryId": "System.Runtime.WindowsRuntime",
+      "targetGraphs": [
+        "UAP,Version=v10.0.16299/win10-arm",
+        "UAP,Version=v10.0.16299/win10-arm-aot",
+        "UAP,Version=v10.0.16299/win10-x64",
+        "UAP,Version=v10.0.16299/win10-x64-aot",
+        "UAP,Version=v10.0.16299/win10-x86",
+        "UAP,Version=v10.0.16299/win10-x86-aot"
+      ]
+    },
+    {
+      "code": "NU1605",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package downgrade: System.Runtime.WindowsRuntime from 4.3.0 to 4.0.10. Reference the package directly from the project to select a different version. \r\n Start Finance -> Microsoft.NETCore.UniversalWindowsPlatform 5.1.0 -> System.ServiceModel.Http 4.0.10 -> System.Private.ServiceModel 4.0.0 -> System.Xml.ReaderWriter 4.0.10 -> System.IO.FileSystem 4.0.0 -> runtime.win.System.IO.FileSystem 4.3.0 -> System.Runtime.WindowsRuntime (>= 4.3.0) \r\n Start Finance -> Microsoft.NETCore.UniversalWindowsPlatform 5.1.0 -> System.Runtime.WindowsRuntime (>= 4.0.10)",
+      "libraryId": "System.Runtime.WindowsRuntime",
+      "targetGraphs": [
+        "UAP,Version=v10.0.16299/win10-arm",
+        "UAP,Version=v10.0.16299/win10-arm-aot",
+        "UAP,Version=v10.0.16299/win10-x64",
+        "UAP,Version=v10.0.16299/win10-x64-aot",
+        "UAP,Version=v10.0.16299/win10-x86",
+        "UAP,Version=v10.0.16299/win10-x86-aot"
+      ]
+    },
+    {
+      "code": "NU1605",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package downgrade: System.Runtime.WindowsRuntime from 4.3.0 to 4.0.10. Reference the package directly from the project to select a different version. \r\n Start Finance -> Microsoft.NETCore.UniversalWindowsPlatform 5.1.0 -> System.ServiceModel.NetTcp 4.0.0 -> System.Private.ServiceModel 4.0.0 -> System.Xml.ReaderWriter 4.0.10 -> System.IO.FileSystem 4.0.0 -> runtime.win.System.IO.FileSystem 4.3.0 -> System.Runtime.WindowsRuntime (>= 4.3.0) \r\n Start Finance -> Microsoft.NETCore.UniversalWindowsPlatform 5.1.0 -> System.Runtime.WindowsRuntime (>= 4.0.10)",
+      "libraryId": "System.Runtime.WindowsRuntime",
+      "targetGraphs": [
+        "UAP,Version=v10.0.16299/win10-arm",
+        "UAP,Version=v10.0.16299/win10-arm-aot",
+        "UAP,Version=v10.0.16299/win10-x64",
+        "UAP,Version=v10.0.16299/win10-x64-aot",
+        "UAP,Version=v10.0.16299/win10-x86",
+        "UAP,Version=v10.0.16299/win10-x86-aot"
+      ]
+    },
+    {
+      "code": "NU1605",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package downgrade: System.Runtime.WindowsRuntime from 4.3.0 to 4.0.10. Reference the package directly from the project to select a different version. \r\n Start Finance -> Microsoft.NETCore.UniversalWindowsPlatform 5.1.0 -> System.ServiceModel.Primitives 4.0.0 -> System.Private.ServiceModel 4.0.0 -> System.Xml.ReaderWriter 4.0.10 -> System.IO.FileSystem 4.0.0 -> runtime.win.System.IO.FileSystem 4.3.0 -> System.Runtime.WindowsRuntime (>= 4.3.0) \r\n Start Finance -> Microsoft.NETCore.UniversalWindowsPlatform 5.1.0 -> System.Runtime.WindowsRuntime (>= 4.0.10)",
+      "libraryId": "System.Runtime.WindowsRuntime",
+      "targetGraphs": [
+        "UAP,Version=v10.0.16299/win10-arm",
+        "UAP,Version=v10.0.16299/win10-arm-aot",
+        "UAP,Version=v10.0.16299/win10-x64",
+        "UAP,Version=v10.0.16299/win10-x64-aot",
+        "UAP,Version=v10.0.16299/win10-x86",
+        "UAP,Version=v10.0.16299/win10-x86-aot"
+      ]
+    },
+    {
+      "code": "NU1605",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package downgrade: System.Runtime.WindowsRuntime from 4.3.0 to 4.0.10. Reference the package directly from the project to select a different version. \r\n Start Finance -> Microsoft.NETCore.UniversalWindowsPlatform 5.1.0 -> System.ServiceModel.Security 4.0.0 -> System.Private.ServiceModel 4.0.0 -> System.Xml.ReaderWriter 4.0.10 -> System.IO.FileSystem 4.0.0 -> runtime.win.System.IO.FileSystem 4.3.0 -> System.Runtime.WindowsRuntime (>= 4.3.0) \r\n Start Finance -> Microsoft.NETCore.UniversalWindowsPlatform 5.1.0 -> System.Runtime.WindowsRuntime (>= 4.0.10)",
+      "libraryId": "System.Runtime.WindowsRuntime",
+      "targetGraphs": [
+        "UAP,Version=v10.0.16299/win10-arm",
+        "UAP,Version=v10.0.16299/win10-arm-aot",
+        "UAP,Version=v10.0.16299/win10-x64",
+        "UAP,Version=v10.0.16299/win10-x64-aot",
+        "UAP,Version=v10.0.16299/win10-x86",
+        "UAP,Version=v10.0.16299/win10-x86-aot"
+      ]
+    },
+    {
+      "code": "NU1605",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package downgrade: System.Runtime.WindowsRuntime from 4.3.0 to 4.0.10. Reference the package directly from the project to select a different version. \r\n Start Finance -> Microsoft.NETCore.UniversalWindowsPlatform 5.1.0 -> System.Runtime.Serialization.Json 4.0.1 -> System.Private.DataContractSerialization 4.1.0 -> runtime.any.System.Private.DataContractSerialization 4.1.0 -> System.Xml.ReaderWriter 4.0.10 -> System.IO.FileSystem 4.0.0 -> runtime.win.System.IO.FileSystem 4.3.0 -> System.Runtime.WindowsRuntime (>= 4.3.0) \r\n Start Finance -> Microsoft.NETCore.UniversalWindowsPlatform 5.1.0 -> System.Runtime.WindowsRuntime (>= 4.0.10)",
+      "libraryId": "System.Runtime.WindowsRuntime",
+      "targetGraphs": [
+        "UAP,Version=v10.0.16299/win10-arm",
+        "UAP,Version=v10.0.16299/win10-x64",
+        "UAP,Version=v10.0.16299/win10-x86"
+      ]
+    },
+    {
+      "code": "NU1605",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package downgrade: System.Runtime.WindowsRuntime from 4.3.0 to 4.0.10. Reference the package directly from the project to select a different version. \r\n Start Finance -> Microsoft.NETCore.UniversalWindowsPlatform 5.1.0 -> System.ServiceModel.Duplex 4.0.0 -> System.Private.ServiceModel 4.0.0 -> System.Net.Primitives 4.0.10 -> System.Private.Networking 4.0.0 -> System.IO.FileSystem 4.0.0 -> runtime.win.System.IO.FileSystem 4.3.0 -> System.Runtime.WindowsRuntime (>= 4.3.0) \r\n Start Finance -> Microsoft.NETCore.UniversalWindowsPlatform 5.1.0 -> System.Runtime.WindowsRuntime (>= 4.0.10)",
+      "libraryId": "System.Runtime.WindowsRuntime",
+      "targetGraphs": [
+        "UAP,Version=v10.0.16299/win10-arm",
+        "UAP,Version=v10.0.16299/win10-arm-aot",
+        "UAP,Version=v10.0.16299/win10-x64",
+        "UAP,Version=v10.0.16299/win10-x64-aot",
+        "UAP,Version=v10.0.16299/win10-x86",
+        "UAP,Version=v10.0.16299/win10-x86-aot"
+      ]
+    },
+    {
+      "code": "NU1605",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package downgrade: System.Runtime.WindowsRuntime from 4.3.0 to 4.0.10. Reference the package directly from the project to select a different version. \r\n Start Finance -> Microsoft.NETCore.UniversalWindowsPlatform 5.1.0 -> System.ServiceModel.Http 4.0.10 -> System.Private.ServiceModel 4.0.0 -> System.Net.Primitives 4.0.10 -> System.Private.Networking 4.0.0 -> System.IO.FileSystem 4.0.0 -> runtime.win.System.IO.FileSystem 4.3.0 -> System.Runtime.WindowsRuntime (>= 4.3.0) \r\n Start Finance -> Microsoft.NETCore.UniversalWindowsPlatform 5.1.0 -> System.Runtime.WindowsRuntime (>= 4.0.10)",
+      "libraryId": "System.Runtime.WindowsRuntime",
+      "targetGraphs": [
+        "UAP,Version=v10.0.16299/win10-arm",
+        "UAP,Version=v10.0.16299/win10-arm-aot",
+        "UAP,Version=v10.0.16299/win10-x64",
+        "UAP,Version=v10.0.16299/win10-x64-aot",
+        "UAP,Version=v10.0.16299/win10-x86",
+        "UAP,Version=v10.0.16299/win10-x86-aot"
+      ]
+    },
+    {
+      "code": "NU1605",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package downgrade: System.Runtime.WindowsRuntime from 4.3.0 to 4.0.10. Reference the package directly from the project to select a different version. \r\n Start Finance -> Microsoft.NETCore.UniversalWindowsPlatform 5.1.0 -> System.ServiceModel.NetTcp 4.0.0 -> System.Private.ServiceModel 4.0.0 -> System.Net.Primitives 4.0.10 -> System.Private.Networking 4.0.0 -> System.IO.FileSystem 4.0.0 -> runtime.win.System.IO.FileSystem 4.3.0 -> System.Runtime.WindowsRuntime (>= 4.3.0) \r\n Start Finance -> Microsoft.NETCore.UniversalWindowsPlatform 5.1.0 -> System.Runtime.WindowsRuntime (>= 4.0.10)",
+      "libraryId": "System.Runtime.WindowsRuntime",
+      "targetGraphs": [
+        "UAP,Version=v10.0.16299/win10-arm",
+        "UAP,Version=v10.0.16299/win10-arm-aot",
+        "UAP,Version=v10.0.16299/win10-x64",
+        "UAP,Version=v10.0.16299/win10-x64-aot",
+        "UAP,Version=v10.0.16299/win10-x86",
+        "UAP,Version=v10.0.16299/win10-x86-aot"
+      ]
+    },
+    {
+      "code": "NU1605",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package downgrade: System.Runtime.WindowsRuntime from 4.3.0 to 4.0.10. Reference the package directly from the project to select a different version. \r\n Start Finance -> Microsoft.NETCore.UniversalWindowsPlatform 5.1.0 -> System.ServiceModel.Primitives 4.0.0 -> System.Private.ServiceModel 4.0.0 -> System.Net.Primitives 4.0.10 -> System.Private.Networking 4.0.0 -> System.IO.FileSystem 4.0.0 -> runtime.win.System.IO.FileSystem 4.3.0 -> System.Runtime.WindowsRuntime (>= 4.3.0) \r\n Start Finance -> Microsoft.NETCore.UniversalWindowsPlatform 5.1.0 -> System.Runtime.WindowsRuntime (>= 4.0.10)",
+      "libraryId": "System.Runtime.WindowsRuntime",
+      "targetGraphs": [
+        "UAP,Version=v10.0.16299/win10-arm",
+        "UAP,Version=v10.0.16299/win10-arm-aot",
+        "UAP,Version=v10.0.16299/win10-x64",
+        "UAP,Version=v10.0.16299/win10-x64-aot",
+        "UAP,Version=v10.0.16299/win10-x86",
+        "UAP,Version=v10.0.16299/win10-x86-aot"
+      ]
+    },
+    {
+      "code": "NU1605",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package downgrade: System.Runtime.WindowsRuntime from 4.3.0 to 4.0.10. Reference the package directly from the project to select a different version. \r\n Start Finance -> Microsoft.NETCore.UniversalWindowsPlatform 5.1.0 -> System.ServiceModel.Security 4.0.0 -> System.Private.ServiceModel 4.0.0 -> System.Net.Primitives 4.0.10 -> System.Private.Networking 4.0.0 -> System.IO.FileSystem 4.0.0 -> runtime.win.System.IO.FileSystem 4.3.0 -> System.Runtime.WindowsRuntime (>= 4.3.0) \r\n Start Finance -> Microsoft.NETCore.UniversalWindowsPlatform 5.1.0 -> System.Runtime.WindowsRuntime (>= 4.0.10)",
+      "libraryId": "System.Runtime.WindowsRuntime",
+      "targetGraphs": [
+        "UAP,Version=v10.0.16299/win10-arm",
+        "UAP,Version=v10.0.16299/win10-arm-aot",
+        "UAP,Version=v10.0.16299/win10-x64",
+        "UAP,Version=v10.0.16299/win10-x64-aot",
+        "UAP,Version=v10.0.16299/win10-x86",
+        "UAP,Version=v10.0.16299/win10-x86-aot"
+      ]
+    },
+    {
+      "code": "NU1605",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package downgrade: System.Runtime.WindowsRuntime from 4.3.0 to 4.0.10. Reference the package directly from the project to select a different version. \r\n Start Finance -> Microsoft.NETCore.UniversalWindowsPlatform 5.1.0 -> System.Runtime.Serialization.Json 4.0.1 -> System.Private.DataContractSerialization 4.1.0 -> runtime.aot.System.Private.DataContractSerialization 4.1.0 -> System.Xml.ReaderWriter 4.0.10 -> System.IO.FileSystem 4.0.0 -> runtime.win.System.IO.FileSystem 4.3.0 -> System.Runtime.WindowsRuntime (>= 4.3.0) \r\n Start Finance -> Microsoft.NETCore.UniversalWindowsPlatform 5.1.0 -> System.Runtime.WindowsRuntime (>= 4.0.10)",
+      "libraryId": "System.Runtime.WindowsRuntime",
+      "targetGraphs": [
+        "UAP,Version=v10.0.16299/win10-arm-aot",
+        "UAP,Version=v10.0.16299/win10-x64-aot",
+        "UAP,Version=v10.0.16299/win10-x86-aot"
+      ]
+    },
+    {
+      "code": "NU1605",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package downgrade: System.Diagnostics.Contracts from 4.3.0 to 4.0.0. Reference the package directly from the project to select a different version. \r\n Start Finance -> Microsoft.NETCore.UniversalWindowsPlatform 5.1.0 -> System.Net.Sockets 4.0.0 -> runtime.win.System.Net.Sockets 4.3.0 -> System.Diagnostics.Tracing 4.3.0 -> runtime.aot.System.Diagnostics.Tracing 4.3.0 -> System.Reflection.Extensions 4.3.0 -> runtime.aot.System.Reflection.Extensions 4.3.0 -> System.Reflection.TypeExtensions 4.3.0 -> System.Diagnostics.Contracts (>= 4.3.0) \r\n Start Finance -> Microsoft.NETCore.UniversalWindowsPlatform 5.1.0 -> System.Diagnostics.Contracts (>= 4.0.0)",
+      "libraryId": "System.Diagnostics.Contracts",
+      "targetGraphs": [
+        "UAP,Version=v10.0.16299/win10-arm-aot",
+        "UAP,Version=v10.0.16299/win10-x64-aot",
+        "UAP,Version=v10.0.16299/win10-x86-aot"
+      ]
+    },
+    {
+      "code": "NU1605",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package downgrade: System.Diagnostics.Contracts from 4.3.0 to 4.0.0. Reference the package directly from the project to select a different version. \r\n Start Finance -> Microsoft.NETCore.UniversalWindowsPlatform 5.1.0 -> System.Net.Requests 4.0.10 -> System.Net.Primitives 4.0.10 -> runtime.win.System.Net.Primitives 4.3.0 -> System.Diagnostics.Tracing 4.3.0 -> runtime.aot.System.Diagnostics.Tracing 4.3.0 -> System.Reflection.Extensions 4.3.0 -> runtime.aot.System.Reflection.Extensions 4.3.0 -> System.Reflection.TypeExtensions 4.3.0 -> System.Diagnostics.Contracts (>= 4.3.0) \r\n Start Finance -> Microsoft.NETCore.UniversalWindowsPlatform 5.1.0 -> System.Diagnostics.Contracts (>= 4.0.0)",
+      "libraryId": "System.Diagnostics.Contracts",
+      "targetGraphs": [
+        "UAP,Version=v10.0.16299/win10-arm-aot",
+        "UAP,Version=v10.0.16299/win10-x64-aot",
+        "UAP,Version=v10.0.16299/win10-x86-aot"
+      ]
+    },
+    {
+      "code": "NU1605",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package downgrade: System.Diagnostics.Contracts from 4.3.0 to 4.0.0. Reference the package directly from the project to select a different version. \r\n Start Finance -> Microsoft.NETCore.UniversalWindowsPlatform 5.1.0 -> System.Net.Http.Rtc 4.0.0 -> System.Net.Http 4.0.0 -> System.Net.Primitives 4.0.0 -> runtime.win.System.Net.Primitives 4.3.0 -> System.Diagnostics.Tracing 4.3.0 -> runtime.aot.System.Diagnostics.Tracing 4.3.0 -> System.Reflection.Extensions 4.3.0 -> runtime.aot.System.Reflection.Extensions 4.3.0 -> System.Reflection.TypeExtensions 4.3.0 -> System.Diagnostics.Contracts (>= 4.3.0) \r\n Start Finance -> Microsoft.NETCore.UniversalWindowsPlatform 5.1.0 -> System.Diagnostics.Contracts (>= 4.0.0)",
+      "libraryId": "System.Diagnostics.Contracts",
+      "targetGraphs": [
+        "UAP,Version=v10.0.16299/win10-arm-aot",
+        "UAP,Version=v10.0.16299/win10-x64-aot",
+        "UAP,Version=v10.0.16299/win10-x86-aot"
+      ]
+    }
+  ]
 }

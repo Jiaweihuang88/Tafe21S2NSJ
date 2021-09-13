@@ -73,9 +73,6 @@
     <AppxPackagedFile Include="C:\Users\Jiawei Huang\.nuget\packages\microsoft.visualbasic\10.0.0\lib\netcore50\Microsoft.VisualBasic.dll">
       <PackagePath>Microsoft.VisualBasic.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jiawei Huang\.nuget\packages\microsoft.win32.primitives\4.0.0\lib\dotnet\Microsoft.Win32.Primitives.dll">
-      <PackagePath>Microsoft.Win32.Primitives.dll</PackagePath>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jiawei Huang\.nuget\packages\microsoft.xaml.behaviors.uwp.managed\1.1.0\lib\uap10.0\Microsoft.Xaml.Interactions.dll">
       <PackagePath>Microsoft.Xaml.Interactions.dll</PackagePath>
     </AppxPackagedFile>
@@ -85,8 +82,77 @@
     <AppxPackagedFile Include="C:\Users\Jiawei Huang\.nuget\packages\newtonsoft.json\9.0.1\lib\portable-net45+wp80+win8+wpa81\Newtonsoft.Json.dll">
       <PackagePath>Newtonsoft.Json.dll</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jiawei Huang\.nuget\packages\runtime.any.system.collections\4.3.0\lib\netcore50\System.Collections.dll">
+      <PackagePath>System.Collections.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jiawei Huang\.nuget\packages\runtime.any.system.diagnostics.tools\4.3.0\lib\netcore50\System.Diagnostics.Tools.dll">
+      <PackagePath>System.Diagnostics.Tools.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jiawei Huang\.nuget\packages\runtime.any.system.diagnostics.tracing\4.3.0\lib\netcore50\System.Diagnostics.Tracing.dll">
+      <PackagePath>System.Diagnostics.Tracing.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jiawei Huang\.nuget\packages\runtime.any.system.globalization\4.3.0\lib\netcore50\System.Globalization.dll">
+      <PackagePath>System.Globalization.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jiawei Huang\.nuget\packages\runtime.any.system.globalization.calendars\4.3.0\lib\netcore50\System.Globalization.Calendars.dll">
+      <PackagePath>System.Globalization.Calendars.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jiawei Huang\.nuget\packages\runtime.any.system.io\4.3.0\lib\netcore50\System.IO.dll">
+      <PackagePath>System.IO.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jiawei Huang\.nuget\packages\runtime.any.system.private.datacontractserialization\4.1.0\lib\netcore50\System.Private.DataContractSerialization.dll">
       <PackagePath>System.Private.DataContractSerialization.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jiawei Huang\.nuget\packages\runtime.any.system.reflection\4.3.0\lib\netcore50\System.Reflection.dll">
+      <PackagePath>System.Reflection.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jiawei Huang\.nuget\packages\runtime.any.system.reflection.primitives\4.3.0\lib\netcore50\System.Reflection.Primitives.dll">
+      <PackagePath>System.Reflection.Primitives.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jiawei Huang\.nuget\packages\runtime.any.system.resources.resourcemanager\4.3.0\lib\netcore50\System.Resources.ResourceManager.dll">
+      <PackagePath>System.Resources.ResourceManager.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jiawei Huang\.nuget\packages\runtime.any.system.runtime\4.3.0\lib\netcore50\System.Runtime.dll">
+      <PackagePath>System.Runtime.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jiawei Huang\.nuget\packages\runtime.any.system.runtime.handles\4.3.0\lib\netstandard1.3\System.Runtime.Handles.dll">
+      <PackagePath>System.Runtime.Handles.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jiawei Huang\.nuget\packages\runtime.any.system.runtime.interopservices\4.3.0\lib\netcore50\System.Runtime.InteropServices.dll">
+      <PackagePath>System.Runtime.InteropServices.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jiawei Huang\.nuget\packages\runtime.any.system.text.encoding\4.3.0\lib\netcore50\System.Text.Encoding.dll">
+      <PackagePath>System.Text.Encoding.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jiawei Huang\.nuget\packages\runtime.any.system.text.encoding.extensions\4.3.0\lib\netcore50\System.Text.Encoding.Extensions.dll">
+      <PackagePath>System.Text.Encoding.Extensions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jiawei Huang\.nuget\packages\runtime.any.system.threading.tasks\4.3.0\lib\netcore50\System.Threading.Tasks.dll">
+      <PackagePath>System.Threading.Tasks.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jiawei Huang\.nuget\packages\runtime.any.system.threading.timer\4.3.0\lib\netcore50\System.Threading.Timer.dll">
+      <PackagePath>System.Threading.Timer.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jiawei Huang\.nuget\packages\runtime.win.microsoft.win32.primitives\4.3.0\runtimes\win\lib\netstandard1.3\Microsoft.Win32.Primitives.dll">
+      <PackagePath>Microsoft.Win32.Primitives.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jiawei Huang\.nuget\packages\runtime.win.system.diagnostics.debug\4.3.0\runtimes\win\lib\netcore50\System.Diagnostics.Debug.dll">
+      <PackagePath>System.Diagnostics.Debug.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jiawei Huang\.nuget\packages\runtime.win.system.io.filesystem\4.3.0\runtimes\win\lib\netcore50\System.IO.FileSystem.dll">
+      <PackagePath>System.IO.FileSystem.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jiawei Huang\.nuget\packages\runtime.win.system.net.primitives\4.3.0\runtimes\win\lib\netcore50\System.Net.Primitives.dll">
+      <PackagePath>System.Net.Primitives.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jiawei Huang\.nuget\packages\runtime.win.system.net.sockets\4.3.0\runtimes\win\lib\netcore50\System.Net.Sockets.dll">
+      <PackagePath>System.Net.Sockets.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jiawei Huang\.nuget\packages\runtime.win.system.runtime.extensions\4.3.0\runtimes\win\lib\netcore50\System.Runtime.Extensions.dll">
+      <PackagePath>System.Runtime.Extensions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jiawei Huang\.nuget\packages\runtime.win7.system.private.uri\4.3.0\runtimes\win\lib\netcore50\System.Private.Uri.dll">
+      <PackagePath>System.Private.Uri.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jiawei Huang\.nuget\packages\sqlite\3.13.0\runtimes\win10-x64\nativeassets\uap10.0\sqlite3.dll">
       <PackagePath>sqlite3.dll</PackagePath>
@@ -100,8 +166,8 @@
     <AppxPackagedFile Include="C:\Users\Jiawei Huang\.nuget\packages\system.appcontext\4.0.0\lib\netcore50\System.AppContext.dll">
       <PackagePath>System.AppContext.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jiawei Huang\.nuget\packages\system.collections\4.0.10\lib\netcore50\System.Collections.dll">
-      <PackagePath>System.Collections.dll</PackagePath>
+    <AppxPackagedFile Include="C:\Users\Jiawei Huang\.nuget\packages\system.buffers\4.3.0\lib\netstandard1.1\System.Buffers.dll">
+      <PackagePath>System.Buffers.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jiawei Huang\.nuget\packages\system.collections.concurrent\4.0.10\lib\dotnet\System.Collections.Concurrent.dll">
       <PackagePath>System.Collections.Concurrent.dll</PackagePath>
@@ -130,32 +196,14 @@
     <AppxPackagedFile Include="C:\Users\Jiawei Huang\.nuget\packages\system.diagnostics.contracts\4.0.0\lib\netcore50\System.Diagnostics.Contracts.dll">
       <PackagePath>System.Diagnostics.Contracts.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jiawei Huang\.nuget\packages\system.diagnostics.debug\4.0.10\lib\netcore50\System.Diagnostics.Debug.dll">
-      <PackagePath>System.Diagnostics.Debug.dll</PackagePath>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jiawei Huang\.nuget\packages\system.diagnostics.stacktrace\4.0.0\lib\netcore50\System.Diagnostics.StackTrace.dll">
       <PackagePath>System.Diagnostics.StackTrace.dll</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jiawei Huang\.nuget\packages\system.diagnostics.tools\4.0.0\lib\netcore50\System.Diagnostics.Tools.dll">
-      <PackagePath>System.Diagnostics.Tools.dll</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jiawei Huang\.nuget\packages\system.diagnostics.tracing\4.0.20\lib\netcore50\System.Diagnostics.Tracing.dll">
-      <PackagePath>System.Diagnostics.Tracing.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jiawei Huang\.nuget\packages\system.dynamic.runtime\4.0.10\lib\netcore50\System.Dynamic.Runtime.dll">
       <PackagePath>System.Dynamic.Runtime.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jiawei Huang\.nuget\packages\system.globalization\4.0.10\lib\netcore50\System.Globalization.dll">
-      <PackagePath>System.Globalization.dll</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jiawei Huang\.nuget\packages\system.globalization.calendars\4.0.0\lib\netcore50\System.Globalization.Calendars.dll">
-      <PackagePath>System.Globalization.Calendars.dll</PackagePath>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jiawei Huang\.nuget\packages\system.globalization.extensions\4.0.0\lib\dotnet\System.Globalization.Extensions.dll">
       <PackagePath>System.Globalization.Extensions.dll</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jiawei Huang\.nuget\packages\system.io\4.0.10\lib\netcore50\System.IO.dll">
-      <PackagePath>System.IO.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jiawei Huang\.nuget\packages\system.io.compression\4.0.0\lib\netcore50\System.IO.Compression.dll">
       <PackagePath>System.IO.Compression.dll</PackagePath>
@@ -166,10 +214,7 @@
     <AppxPackagedFile Include="C:\Users\Jiawei Huang\.nuget\packages\system.io.compression.zipfile\4.0.0\lib\dotnet\System.IO.Compression.ZipFile.dll">
       <PackagePath>System.IO.Compression.ZipFile.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jiawei Huang\.nuget\packages\system.io.filesystem\4.0.0\lib\netcore50\System.IO.FileSystem.dll">
-      <PackagePath>System.IO.FileSystem.dll</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jiawei Huang\.nuget\packages\system.io.filesystem.primitives\4.0.0\lib\dotnet\System.IO.FileSystem.Primitives.dll">
+    <AppxPackagedFile Include="C:\Users\Jiawei Huang\.nuget\packages\system.io.filesystem.primitives\4.3.0\lib\netstandard1.3\System.IO.FileSystem.Primitives.dll">
       <PackagePath>System.IO.FileSystem.Primitives.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jiawei Huang\.nuget\packages\system.io.isolatedstorage\4.0.0\lib\netcore50\System.IO.IsolatedStorage.dll">
@@ -178,7 +223,7 @@
     <AppxPackagedFile Include="C:\Users\Jiawei Huang\.nuget\packages\system.io.unmanagedmemorystream\4.0.0\lib\dotnet\System.IO.UnmanagedMemoryStream.dll">
       <PackagePath>System.IO.UnmanagedMemoryStream.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jiawei Huang\.nuget\packages\system.linq\4.0.0\lib\netcore50\System.Linq.dll">
+    <AppxPackagedFile Include="C:\Users\Jiawei Huang\.nuget\packages\system.linq\4.3.0\lib\netcore50\System.Linq.dll">
       <PackagePath>System.Linq.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jiawei Huang\.nuget\packages\system.linq.expressions\4.0.10\lib\netcore50\System.Linq.Expressions.dll">
@@ -196,17 +241,14 @@
     <AppxPackagedFile Include="C:\Users\Jiawei Huang\.nuget\packages\system.net.http.rtc\4.0.0\lib\netcore50\System.Net.Http.Rtc.dll">
       <PackagePath>System.Net.Http.Rtc.dll</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jiawei Huang\.nuget\packages\system.net.nameresolution\4.3.0\runtimes\win\lib\netcore50\System.Net.NameResolution.dll">
+      <PackagePath>System.Net.NameResolution.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jiawei Huang\.nuget\packages\system.net.networkinformation\4.0.0\lib\netcore50\System.Net.NetworkInformation.dll">
       <PackagePath>System.Net.NetworkInformation.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jiawei Huang\.nuget\packages\system.net.primitives\4.0.10\lib\netcore50\System.Net.Primitives.dll">
-      <PackagePath>System.Net.Primitives.dll</PackagePath>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jiawei Huang\.nuget\packages\system.net.requests\4.0.10\lib\dotnet\System.Net.Requests.dll">
       <PackagePath>System.Net.Requests.dll</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jiawei Huang\.nuget\packages\system.net.sockets\4.0.0\lib\netcore50\System.Net.Sockets.dll">
-      <PackagePath>System.Net.Sockets.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jiawei Huang\.nuget\packages\system.net.webheadercollection\4.0.0\lib\dotnet\System.Net.WebHeaderCollection.dll">
       <PackagePath>System.Net.WebHeaderCollection.dll</PackagePath>
@@ -225,12 +267,6 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jiawei Huang\.nuget\packages\system.private.servicemodel\4.0.0\lib\netcore50\System.Private.ServiceModel.dll">
       <PackagePath>System.Private.ServiceModel.dll</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jiawei Huang\.nuget\packages\system.private.uri\4.0.0\lib\netcore50\System.Private.Uri.dll">
-      <PackagePath>System.Private.Uri.dll</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jiawei Huang\.nuget\packages\system.reflection\4.0.10\lib\netcore50\System.Reflection.dll">
-      <PackagePath>System.Reflection.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jiawei Huang\.nuget\packages\system.reflection.context\4.0.0\lib\netcore50\System.Reflection.Context.dll">
       <PackagePath>System.Reflection.Context.dll</PackagePath>
@@ -253,26 +289,8 @@
     <AppxPackagedFile Include="C:\Users\Jiawei Huang\.nuget\packages\system.reflection.metadata\1.0.22\lib\dotnet\System.Reflection.Metadata.dll">
       <PackagePath>System.Reflection.Metadata.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jiawei Huang\.nuget\packages\system.reflection.primitives\4.0.0\lib\netcore50\System.Reflection.Primitives.dll">
-      <PackagePath>System.Reflection.Primitives.dll</PackagePath>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jiawei Huang\.nuget\packages\system.reflection.typeextensions\4.0.0\lib\netcore50\System.Reflection.TypeExtensions.dll">
       <PackagePath>System.Reflection.TypeExtensions.dll</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jiawei Huang\.nuget\packages\system.resources.resourcemanager\4.0.0\lib\netcore50\System.Resources.ResourceManager.dll">
-      <PackagePath>System.Resources.ResourceManager.dll</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jiawei Huang\.nuget\packages\system.runtime\4.0.20\lib\netcore50\System.Runtime.dll">
-      <PackagePath>System.Runtime.dll</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jiawei Huang\.nuget\packages\system.runtime.extensions\4.0.10\lib\netcore50\System.Runtime.Extensions.dll">
-      <PackagePath>System.Runtime.Extensions.dll</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jiawei Huang\.nuget\packages\system.runtime.handles\4.0.0\lib\netcore50\System.Runtime.Handles.dll">
-      <PackagePath>System.Runtime.Handles.dll</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jiawei Huang\.nuget\packages\system.runtime.interopservices\4.0.20\lib\netcore50\System.Runtime.InteropServices.dll">
-      <PackagePath>System.Runtime.InteropServices.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jiawei Huang\.nuget\packages\system.runtime.interopservices.windowsruntime\4.0.0\lib\netcore50\System.Runtime.InteropServices.WindowsRuntime.dll">
       <PackagePath>System.Runtime.InteropServices.WindowsRuntime.dll</PackagePath>
@@ -316,35 +334,23 @@
     <AppxPackagedFile Include="C:\Users\Jiawei Huang\.nuget\packages\system.servicemodel.security\4.0.0\lib\netcore50\System.ServiceModel.Security.dll">
       <PackagePath>System.ServiceModel.Security.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jiawei Huang\.nuget\packages\system.text.encoding\4.0.10\lib\netcore50\System.Text.Encoding.dll">
-      <PackagePath>System.Text.Encoding.dll</PackagePath>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jiawei Huang\.nuget\packages\system.text.encoding.codepages\4.0.0\lib\dotnet\System.Text.Encoding.CodePages.dll">
       <PackagePath>System.Text.Encoding.CodePages.dll</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jiawei Huang\.nuget\packages\system.text.encoding.extensions\4.0.10\lib\netcore50\System.Text.Encoding.Extensions.dll">
-      <PackagePath>System.Text.Encoding.Extensions.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jiawei Huang\.nuget\packages\system.text.regularexpressions\4.0.10\lib\dotnet\System.Text.RegularExpressions.dll">
       <PackagePath>System.Text.RegularExpressions.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jiawei Huang\.nuget\packages\system.threading\4.0.10\lib\netcore50\System.Threading.dll">
+    <AppxPackagedFile Include="C:\Users\Jiawei Huang\.nuget\packages\system.threading\4.3.0\lib\netcore50\System.Threading.dll">
       <PackagePath>System.Threading.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jiawei Huang\.nuget\packages\system.threading.overlapped\4.0.0\lib\netcore50\System.Threading.Overlapped.dll">
+    <AppxPackagedFile Include="C:\Users\Jiawei Huang\.nuget\packages\system.threading.overlapped\4.3.0\runtimes\win\lib\netcore50\System.Threading.Overlapped.dll">
       <PackagePath>System.Threading.Overlapped.dll</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jiawei Huang\.nuget\packages\system.threading.tasks\4.0.10\lib\netcore50\System.Threading.Tasks.dll">
-      <PackagePath>System.Threading.Tasks.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jiawei Huang\.nuget\packages\system.threading.tasks.dataflow\4.5.25\lib\dotnet\System.Threading.Tasks.Dataflow.dll">
       <PackagePath>System.Threading.Tasks.Dataflow.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jiawei Huang\.nuget\packages\system.threading.tasks.parallel\4.0.0\lib\netcore50\System.Threading.Tasks.Parallel.dll">
       <PackagePath>System.Threading.Tasks.Parallel.dll</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jiawei Huang\.nuget\packages\system.threading.timer\4.0.0\lib\netcore50\System.Threading.Timer.dll">
-      <PackagePath>System.Threading.Timer.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jiawei Huang\.nuget\packages\system.xml.readerwriter\4.0.10\lib\dotnet\System.Xml.ReaderWriter.dll">
       <PackagePath>System.Xml.ReaderWriter.dll</PackagePath>
@@ -432,6 +438,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\5TSDFinanceAssignment\StarFinanceMaster\InstaRichie\bin\x64\Debug\Views\MainPage.xbf">
       <PackagePath>Views\MainPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\5TSDFinanceAssignment\StarFinanceMaster\InstaRichie\bin\x64\Debug\Views\PersonalInfoPage.xbf">
+      <PackagePath>Views\PersonalInfoPage.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\5TSDFinanceAssignment\StarFinanceMaster\InstaRichie\bin\x64\Debug\Views\SettingsPage.xbf">
       <PackagePath>Views\SettingsPage.xbf</PackagePath>

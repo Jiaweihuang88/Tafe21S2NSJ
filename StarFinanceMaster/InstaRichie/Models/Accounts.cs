@@ -27,7 +27,7 @@ namespace StartFinance.Models
 {
     public class Accounts
     {
-        [PrimaryKey, AutoIncrement]
+        [PrimaryKey]
         public int ID { get; set; }
 
         [Unique]

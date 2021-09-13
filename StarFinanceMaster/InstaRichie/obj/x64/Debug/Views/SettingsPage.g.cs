@@ -123,6 +123,11 @@ namespace StartFinance.Views
             {
             }
 
+            public void DisconnectUnloadedObject(int connectionId)
+            {
+                throw new global::System.ArgumentException("No unloadable elements to disconnect.");
+            }
+
             public bool SetDataRoot(global::System.Object newDataRoot)
             {
                 if (newDataRoot != null)
