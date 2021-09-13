@@ -108,27 +108,57 @@ namespace StartFinance.Views
             Results();
         }
 
-        private void EditBtn_Click(object sender, RoutedEventArgs e)
+        private async void EditBtn_Click(object sender, RoutedEventArgs e)
         {
-            string existingId= UserIdTextBox.Text;
+            string existingId = UserIdTextBox.Text;
             string newName = FullNameTextBox.Text;
             string newContact = ContactTextBox.Text;
             string newEmail = EmailTextBox.Text;
 
-            
-            con.Query<PersonalInfo>("update PersonalInfo set Full_Name ='" + newName + "' where User_ID = '" + existingId + "'");
-            con.Query<PersonalInfo>("update PersonalInfo set Email ='" + newEmail + "' where User_ID = '" + existingId + "'");
-            con.Query<PersonalInfo>("update PersonalInfo set Contact ='" + newContact + "' where User_ID = '" + existingId + "'");
 
-            Results();
+            object idSearchResult = con.Query<PersonalInfo>("SELECT * FROM PersonalInfo WHERE User_ID ='" + existingId + "'");
+
+            if (idSearchResult == null)
+            {
+                MessageDialog dialog = new MessageDialog("The profile is not existed");
+                await dialog.ShowAsync();
+
+            }
+
+            else
+            {
+
+                con.Query<PersonalInfo>("update PersonalInfo set Full_Name ='" + newName + "' where User_ID = '" + existingId + "'");
+                con.Query<PersonalInfo>("update PersonalInfo set Email ='" + newEmail + "' where User_ID = '" + existingId + "'");
+                con.Query<PersonalInfo>("update PersonalInfo set Contact ='" + newContact + "' where User_ID = '" + existingId + "'");
+
+                Results();
+            }
         }
 
-        private void DeleteBtn_Click(object sender, RoutedEventArgs e)
+        private async void DeleteBtn_Click(object sender, RoutedEventArgs e)
         {
-            string deleteQry = "DELETE FROM PersonalInfo WHERE User_ID = " + UserIdTextBox.Text;
-            con.Query<PersonalInfo>(deleteQry);
+            string existingId = UserIdTextBox.Text;
 
-            Results();
+
+            object idSearchResult = con.Query<PersonalInfo>("SELECT * FROM PersonalInfo WHERE User_ID ='" + existingId + "'");
+
+            if (idSearchResult == null)
+            {
+                MessageDialog dialog = new MessageDialog("The profile is not existed");
+                await dialog.ShowAsync();
+
+            }
+
+            else
+            {
+
+
+                string deleteQry = "DELETE FROM PersonalInfo WHERE User_ID = " + UserIdTextBox.Text;
+                con.Query<PersonalInfo>(deleteQry);
+
+                Results();
+            }
         }
 
         private void Page_Loaded(object sender, RoutedEventArgs e)
