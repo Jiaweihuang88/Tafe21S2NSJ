@@ -5,6 +5,12 @@
     <RootPropertyPathName Name="InitialAmount" />
     <RootPropertyPathName Name="AccountName" />
     <RootPropertyPathName Name="ID" />
+    <RootPropertyPathName Name="EndTime" />
+    <RootPropertyPathName Name="StartTime" />
+    <RootPropertyPathName Name="EventDate" />
+    <RootPropertyPathName Name="Location" />
+    <RootPropertyPathName Name="EventName" />
+    <RootPropertyPathName Name="AppointmentID" />
     <RootPropertyPathName Name="AssetValue" />
     <RootPropertyPathName Name="AssetName" />
     <RootPropertyPathName Name="DebtAmount" />
@@ -231,6 +237,12 @@
       <RootProperty Name="FallbackValue" />
     </RootType>
     <RootType FullName="StartFinance.Views.AccountsPage" />
+    <RootType FullName="Windows.UI.Xaml.Controls.DatePicker">
+      <RootProperty Name="Header" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.TimePicker">
+      <RootProperty Name="Header" />
+    </RootType>
     <RootType FullName="StartFinance.Views.AppointmentsPage" />
     <RootType FullName="StartFinance.Views.AssetsPage" />
     <RootType FullName="Windows.UI.Xaml.Controls.UserControl">

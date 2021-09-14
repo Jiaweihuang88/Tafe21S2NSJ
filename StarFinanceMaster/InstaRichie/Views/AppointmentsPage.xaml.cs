@@ -41,8 +41,8 @@ namespace StartFinance.Views
         public void Results()
         {
             // Creating table
-            conn.CreateTable<Appointment>();
-            var query = conn.Table<Appointment>();
+            conn.CreateTable<Appointments>();
+            var query = conn.Table<Appointments>();
             AppointmentList.ItemsSource = query.ToList();
         }
 
@@ -61,14 +61,25 @@ namespace StartFinance.Views
                     MessageDialog variableerror = new MessageDialog("You cannot use this name", "Oops..!");
                 }
                 else
-                {   // Inserts the data
-                    conn.Insert(new Appointment()
+                {
+                    //conversions to datetime
+
+                    DateTime eventDateTime;
+                    DateTime startDateTime;
+                    DateTime endDateTime;
+
+                    eventDateTime = Convert.ToDateTime(appointmentDatePicker.ToString());
+                    startDateTime = Convert.ToDateTime(appStartTimePicker.ToString());
+                    endDateTime = Convert.ToDateTime(appEndTimePicker.ToString());
+
+                    // Inserts the data
+                    conn.Insert(new Appointments()
                     {
                         EventName = EventNameBox.Text,
                         Location = LocationBox.Text,
-                        EventDate = appointmentDatePicker.Date,
-                        StartTime = appStartTimePicker.Time,
-                        EndTime = appEndTimePicker.Time,
+                        EventDate = eventDateTime,
+                        StartTime = startDateTime, //.TimeSpan,
+                        EndTime = endDateTime //.Time,
                     });
                     Results();
                 }
@@ -93,6 +104,9 @@ namespace StartFinance.Views
 
             }
         }
+
+        // converts timespan to datetime
+
 
         // Clears the fields
         private async void ClearFileds_Click(object sender, RoutedEventArgs e)
@@ -123,28 +137,28 @@ namespace StartFinance.Views
 
             // sort out this bit vvv
 
-            //var result = await ShowConf.ShowAsync();
-            //if ((int)result.Id == 0)
-            //{
-            //    // checks if data is null else inserts
-            //    try
-            //    {
-            //        string AppointmentsLabel = ((Appointments)AppointmentList.SelectedItem).EventName;
-            //        var querydel = conn.Query<Appointments>("DELETE FROM Appointments WHERE EventName='" + AppointmentsLabel + "'");
-            //        Results();
-            //        conn.CreateTable<Appointments>();
-            //        var querytable = conn.Query<Appointments>("DELETE FROM Appointments WHERE Appointments='" + AppointmentsLabel + "'");
-            //    }
-            //    catch (NullReferenceException)
-            //    {
-            //        MessageDialog ClearDialog = new MessageDialog("Please select the item to Delete", "Oops..!");
-            //        await ClearDialog.ShowAsync();
-            //    }
-            //}
-            //else
-            //{
-            //    //
-            //}
+            var result = await ShowConf.ShowAsync();
+            if ((int)result.Id == 0)
+            {
+                // checks if data is null else inserts
+                try
+                {
+                    string AppointmentsLabel = ((Appointments)AppointmentList.SelectedItem).EventName;
+                    var querydel = conn.Query<Appointments>("DELETE FROM Appointments WHERE EventName='" + AppointmentsLabel + "'");
+                    Results();
+                    conn.CreateTable<Appointments>();
+                    var querytable = conn.Query<Appointments>("DELETE FROM Appointments WHERE Appointments='" + AppointmentsLabel + "'");
+                }
+                catch (NullReferenceException)
+                {
+                    MessageDialog ClearDialog = new MessageDialog("Please select the item to Delete", "Oops..!");
+                    await ClearDialog.ShowAsync();
+                }
+            }
+            else
+            {
+                //
+            }
         }
 
 
