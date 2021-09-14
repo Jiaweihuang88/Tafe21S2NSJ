@@ -14,7 +14,7 @@
     mc:Ignorable="d">
 
     <Page.Resources>
-    <DataTemplate x:Key="TransListView">
+    <DataTemplate x:Key="AppointmentsListView">
         <Grid>
             <StackPanel Orientation="Horizontal">
                 <TextBlock Text="{Binding AppointmentID}" Padding="0,0,15,0"/>
@@ -98,14 +98,14 @@
                     <StackPanel x:Name="PageStart" Grid.Row="0" VerticalAlignment="Top"
                         HorizontalAlignment="Stretch"
                         Orientation="Vertical" Margin="10,5,10,0">                        
-                        <TextBox x:Name="EventName" Header="Event Name" PlaceholderText="Parent/Teacher Meeting, Financial Counseling" TextWrapping="Wrap"/>
-                        <TextBox x:Name="Location" Header="Location" PlaceholderText="500 King William Street, Adelaide" InputScope="Number" TextWrapping="Wrap"/>                        
+                        <TextBox x:Name="EventNameBox" Header="Event Name" PlaceholderText="Parent/Teacher Meeting, Financial Counseling" TextWrapping="Wrap"/>
+                        <TextBox x:Name="LocationBox" Header="Location" PlaceholderText="500 King William Street, Adelaide" InputScope="Number" TextWrapping="Wrap"/>                        
                         <DatePicker x:Name="appointmentDatePicker" Header="Date of Appointment"/>
                         <TimePicker x:Name="appStartTimePicker" Header="Appointment Start Time"/>
                         <TimePicker x:Name="appEndTimePicker" Header="Appointment End Time"/>
 
                     </StackPanel>
-                    <ListView x:Name="AppointmentList" Grid.Row="1" ItemTemplate="{StaticResource TransListView}"
+                    <ListView x:Name="AppointmentList" Grid.Row="1" ItemTemplate="{StaticResource AppointmentsListView}"
                               HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
                         <RelativePanel.Below>PageStart</RelativePanel.Below>
                     </ListView>
