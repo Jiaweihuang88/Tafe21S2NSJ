@@ -50,20 +50,21 @@ namespace StartFinance.Views
         {
             try
             {
-                // checks if account name is null
+                // checks if appointment name is null
                 if (EventNameBox.Text.ToString() == "")
                 {
-                    MessageDialog dialog = new MessageDialog("Amount Name not Entered", "Oops..!");
+                    MessageDialog dialog = new MessageDialog("Event name not Entered", "Oops..!");
                     await dialog.ShowAsync();
                 }
-                else if (EventNameBox.Text.ToString() == "AccountName" || EventNameBox.Text.ToString() == "InitialAmount")
-                {
-                    MessageDialog variableerror = new MessageDialog("You cannot use this name", "Oops..!");
-                }
+                //else if (EventNameBox.Text.ToString() == "AppointmentName" || EventNameBox.Text.ToString() == "InitialAmount")
+                //{
+                //    MessageDialog variableerror = new MessageDialog("You cannot use this name", "Oops..!");
+                //}
                 else
                 {
-                    //conversions to datetime
+                    // issue with conversion - registering as a format exception
 
+                    //conversions to datetime
                     DateTime eventDateTime;
                     DateTime startDateTime;
                     DateTime endDateTime;
@@ -89,12 +90,12 @@ namespace StartFinance.Views
             {   // Exception to display when amount is invalid or not numbers
                 if (ex is FormatException)
                 {
-                    MessageDialog dialog = new MessageDialog("You forgot to enter the Amount or entered an invalid data", "Oops..!");
+                    MessageDialog dialog = new MessageDialog("You forgot to enter the event name or entered invalid data", "Oops..!");
                     await dialog.ShowAsync();
                 }   // Exception handling when SQLite contraints are violated
                 else if (ex is SQLiteException)
                 {
-                    MessageDialog dialog = new MessageDialog("Account Name already exist, Try Different Name", "Oops..!");
+                    MessageDialog dialog = new MessageDialog("Event Name already exists, Try a Different Name", "Oops..!");
                     await dialog.ShowAsync();
                 }
                 else
@@ -104,9 +105,6 @@ namespace StartFinance.Views
 
             }
         }
-
-        // converts timespan to datetime
-
 
         // Clears the fields
         private async void ClearFileds_Click(object sender, RoutedEventArgs e)
@@ -123,7 +121,7 @@ namespace StartFinance.Views
 
         private async void DeleteItem_Click(object sender, RoutedEventArgs e)
         {
-            MessageDialog ShowConf = new MessageDialog("Deleting this Account will delete all transactions of this account", "Important");
+            MessageDialog ShowConf = new MessageDialog("Would you like to delete this appointment?", "Important");
             ShowConf.Commands.Add(new UICommand("Yes, Delete")
             {
                 Id = 0
@@ -135,8 +133,6 @@ namespace StartFinance.Views
             ShowConf.DefaultCommandIndex = 0;
             ShowConf.CancelCommandIndex = 1;
 
-            // sort out this bit vvv
-
             var result = await ShowConf.ShowAsync();
             if ((int)result.Id == 0)
             {
@@ -144,10 +140,17 @@ namespace StartFinance.Views
                 try
                 {
                     string AppointmentsLabel = ((Appointments)AppointmentList.SelectedItem).EventName;
-                    var querydel = conn.Query<Appointments>("DELETE FROM Appointments WHERE EventName='" + AppointmentsLabel + "'");
-                    Results();
+                    //var querydel = conn.Query<Appointments>("DELETE FROM Appointments WHERE EventName='" + AppointmentsLabel + "'");
+                    //Results();
+                    //conn.CreateTable<Appointments>();
+                    //var querytable = conn.Query<Appointments>("DELETE FROM Appointments WHERE Appointments='" + AppointmentsLabel + "'");
+                    
+                    //AppointmentList.ItemsSource = querydel.ToList();
+
                     conn.CreateTable<Appointments>();
-                    var querytable = conn.Query<Appointments>("DELETE FROM Appointments WHERE Appointments='" + AppointmentsLabel + "'");
+                    var query1 = conn.Table<Appointments>();
+                    var query3 = conn.Query<Appointments>("DELETE FROM Appointments WHERE EventName ='" + AppointmentsLabel + "'");
+                    AppointmentList.ItemsSource = query1.ToList();
                 }
                 catch (NullReferenceException)
                 {

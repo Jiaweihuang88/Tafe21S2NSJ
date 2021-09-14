@@ -81,7 +81,7 @@
 
             <!--   secondary commands  -->
             <controls:PageHeader.PrimaryCommands>
-                <AppBarButton Icon="Add" Label="Add Account" Click="AppBarButton_Click" />
+                <AppBarButton Icon="Add" Label="Add Appointment" Click="AppBarButton_Click" />
                 <AppBarButton Icon="Delete" Label="Delete Account" Click="DeleteItem_Click" />
             </controls:PageHeader.PrimaryCommands>
         </controls:PageHeader>

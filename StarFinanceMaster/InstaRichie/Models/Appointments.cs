@@ -12,7 +12,7 @@ namespace StartFinance.Models
         [PrimaryKey, AutoIncrement]
         public int AppointmentID { get; set; }
 
-        [NotNull]
+        [Unique]
         public string EventName { get; set; }
 
         [NotNull]
