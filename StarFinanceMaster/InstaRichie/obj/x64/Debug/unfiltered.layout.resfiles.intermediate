@@ -9,6 +9,7 @@ App.xbf
 StartFinance.xr.xml
 Styles\Custom.xbf
 Views\AccountsPage.xbf
+Views\AppointmentsPage.xbf
 Views\AssetsPage.xbf
 Views\Busy.xbf
 Views\DashBoardPage.xbf
