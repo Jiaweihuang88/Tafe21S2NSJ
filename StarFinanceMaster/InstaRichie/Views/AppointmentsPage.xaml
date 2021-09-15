@@ -102,7 +102,9 @@
                         <TextBox x:Name="LocationBox" Header="Location" PlaceholderText="500 King William Street, Adelaide" InputScope="Number" TextWrapping="Wrap"/>                        
                         <DatePicker x:Name="appointmentDatePicker" Header="Date of Appointment"/>
                         <TimePicker x:Name="appStartTimePicker" Header="Appointment Start Time"/>
-                        <TimePicker x:Name="appEndTimePicker" Header="Appointment End Time"/>
+                        <TimePicker x:Name="appEndTimePicker">
+                            <TextBlock x:Name="testTextBlock" HorizontalAlignment="Left" Margin="218,0,0,0" Text="OUTPUT TESTING" TextWrapping="Wrap"/>
+                        </TimePicker>
 
                     </StackPanel>
                     <ListView x:Name="AppointmentList" Grid.Row="1" ItemTemplate="{StaticResource AppointmentsListView}"

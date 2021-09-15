@@ -69,9 +69,9 @@
 
             <!--  secondary commands  -->
             <controls:PageHeader.SecondaryCommands>
-                <AppBarButton x:ConnectionId='19'                                         Label="Settings" />
-                <AppBarButton x:ConnectionId='20'                                        Label="Privacy" />
-                <AppBarButton x:ConnectionId='21'                                      Label="About" />
+                <AppBarButton x:ConnectionId='20'                                         Label="Settings" />
+                <AppBarButton x:ConnectionId='21'                                        Label="Privacy" />
+                <AppBarButton x:ConnectionId='22'                                      Label="About" />
             </controls:PageHeader.SecondaryCommands>
         </controls:PageHeader>
 
@@ -81,8 +81,8 @@
 
             <!--   secondary commands  -->
             <controls:PageHeader.PrimaryCommands>
-                <AppBarButton x:ConnectionId='17' Icon="Add" Label="Add Appointment"                            />
-                <AppBarButton x:ConnectionId='18' Icon="Delete" Label="Delete Account"                          />
+                <AppBarButton x:ConnectionId='18' Icon="Add" Label="Add Appointment"                            />
+                <AppBarButton x:ConnectionId='19' Icon="Delete" Label="Delete Account"                          />
             </controls:PageHeader.PrimaryCommands>
         </controls:PageHeader>
 
@@ -102,7 +102,9 @@
                         <TextBox x:ConnectionId='13' x:Name="LocationBox" Header="Location" PlaceholderText="500 King William Street, Adelaide" InputScope="Number" TextWrapping="Wrap"/>                        
                         <DatePicker x:ConnectionId='14' x:Name="appointmentDatePicker" Header="Date of Appointment"/>
                         <TimePicker x:ConnectionId='15' x:Name="appStartTimePicker" Header="Appointment Start Time"/>
-                        <TimePicker x:ConnectionId='16' x:Name="appEndTimePicker" Header="Appointment End Time"/>
+                        <TimePicker x:ConnectionId='16' x:Name="appEndTimePicker">
+                            <TextBlock x:ConnectionId='17' x:Name="testTextBlock" HorizontalAlignment="Left" Margin="218,0,0,0" Text="OUTPUT TESTING" TextWrapping="Wrap"/>
+                        </TimePicker>
 
                     </StackPanel>
                     <ListView x:ConnectionId='11' x:Name="AppointmentList" Grid.Row="1" ItemTemplate="{StaticResource AppointmentsListView}"

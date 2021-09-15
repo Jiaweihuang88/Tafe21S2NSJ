@@ -412,7 +412,6 @@ C:\git_repositories\5TSD\Start_Finance\Tafe21S2NSJ\StarFinanceMaster\InstaRichie
 C:\git_repositories\5TSD\Start_Finance\Tafe21S2NSJ\StarFinanceMaster\InstaRichie\bin\x64\Debug\System.Xml.XmlSerializer.dll
 C:\git_repositories\5TSD\Start_Finance\Tafe21S2NSJ\StarFinanceMaster\InstaRichie\bin\x64\Debug\Template10Library.dll
 C:\git_repositories\5TSD\Start_Finance\Tafe21S2NSJ\StarFinanceMaster\InstaRichie\bin\x64\Debug\Microsoft.UI.Xaml.Markup.winmd
-C:\git_repositories\5TSD\Start_Finance\Tafe21S2NSJ\StarFinanceMaster\InstaRichie\obj\x64\Debug\Start Finance.csproj.AssemblyReference.cache
 C:\git_repositories\5TSD\Start_Finance\Tafe21S2NSJ\StarFinanceMaster\InstaRichie\obj\x64\Debug\App.g.i.cs
 C:\git_repositories\5TSD\Start_Finance\Tafe21S2NSJ\StarFinanceMaster\InstaRichie\obj\x64\Debug\App.g.cs
 C:\git_repositories\5TSD\Start_Finance\Tafe21S2NSJ\StarFinanceMaster\InstaRichie\obj\x64\Debug\Views\AccountsPage.g.i.cs
@@ -552,7 +551,6 @@ C:\git_repositories\5TSD\Start_Finance\Tafe21S2NSJ\StarFinanceMaster\InstaRichie
 C:\git_repositories\5TSD\Start_Finance\Tafe21S2NSJ\StarFinanceMaster\InstaRichie\obj\x64\Debug\MultipleQualifiersPerDimensionFound.txt
 C:\git_repositories\5TSD\Start_Finance\Tafe21S2NSJ\StarFinanceMaster\InstaRichie\obj\x64\Debug\ProjectArchitectures.txt
 C:\git_repositories\5TSD\Start_Finance\Tafe21S2NSJ\StarFinanceMaster\InstaRichie\obj\x64\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_636884950160000000.json
-C:\git_repositories\5TSD\Start_Finance\Tafe21S2NSJ\StarFinanceMaster\InstaRichie\obj\x64\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_636884968160000000.json
 C:\git_repositories\5TSD\Start_Finance\Tafe21S2NSJ\StarFinanceMaster\InstaRichie\bin\x64\Debug\Views\AppointmentsPage.xbf
 C:\git_repositories\5TSD\Start_Finance\Tafe21S2NSJ\StarFinanceMaster\InstaRichie\obj\x64\Debug\Views\AppointmentsPage.g.i.cs
 C:\git_repositories\5TSD\Start_Finance\Tafe21S2NSJ\StarFinanceMaster\InstaRichie\obj\x64\Debug\Views\AppointmentsPage.g.cs

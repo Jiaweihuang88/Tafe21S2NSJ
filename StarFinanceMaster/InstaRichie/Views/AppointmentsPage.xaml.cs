@@ -73,6 +73,10 @@ namespace StartFinance.Views
                     startDateTime = Convert.ToDateTime(appStartTimePicker.ToString());
                     endDateTime = Convert.ToDateTime(appEndTimePicker.ToString());
 
+                    //eventDateTime = appointmentDatePicker.Date.ToString();
+                    //startDateTime = Convert.ToDateTime(appStartTimePicker.ToString());
+                    //endDateTime = Convert.ToDateTime(appEndTimePicker.ToString());
+
                     // Inserts the data
                     conn.Insert(new Appointments()
                     {
@@ -83,6 +87,9 @@ namespace StartFinance.Views
                         EndTime = endDateTime //.Time,
                     });
                     Results();
+
+                    //testTextBlock.Text = "cats" + appointmentDatePicker.Date.ToString();
+
                 }
 
             }
