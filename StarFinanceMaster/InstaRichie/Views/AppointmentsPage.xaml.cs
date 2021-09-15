@@ -69,8 +69,7 @@ namespace StartFinance.Views
                     DateTime startDateTime;
                     DateTime endDateTime;
 
-                    eventDateTime = appointmentDatePicker.GetValue.toString();
-                    //eventDateTime = Convert.ToDateTime(appointmentDatePicker.ToString());
+                    eventDateTime = Convert.ToDateTime(appointmentDatePicker.ToString());
                     startDateTime = Convert.ToDateTime(appStartTimePicker.ToString());
                     endDateTime = Convert.ToDateTime(appEndTimePicker.ToString());
 
