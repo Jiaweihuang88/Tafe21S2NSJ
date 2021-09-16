@@ -1,43 +1,43 @@
 {
   "format": 1,
   "restore": {
-    "D:\\5TSDFinanceAssignment\\StarFinanceMaster\\InstaRichie\\Start Finance.csproj": {}
+    "C:\\StarFinanceMaster\\Tafe21S2NSJ\\StarFinanceMaster\\InstaRichie\\Start Finance.csproj": {}
   },
   "projects": {
-    "D:\\5TSDFinanceAssignment\\StarFinanceMaster\\InstaRichie\\Start Finance.csproj": {
+    "C:\\StarFinanceMaster\\Tafe21S2NSJ\\StarFinanceMaster\\InstaRichie\\Start Finance.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\5TSDFinanceAssignment\\StarFinanceMaster\\InstaRichie\\Start Finance.csproj",
+        "projectUniqueName": "C:\\StarFinanceMaster\\Tafe21S2NSJ\\StarFinanceMaster\\InstaRichie\\Start Finance.csproj",
         "projectName": "Start Finance",
-        "projectPath": "D:\\5TSDFinanceAssignment\\StarFinanceMaster\\InstaRichie\\Start Finance.csproj",
-        "packagesPath": "C:\\Users\\Jiawei Huang\\.nuget\\packages\\",
-        "outputPath": "D:\\5TSDFinanceAssignment\\StarFinanceMaster\\InstaRichie\\obj\\",
+        "projectPath": "C:\\StarFinanceMaster\\Tafe21S2NSJ\\StarFinanceMaster\\InstaRichie\\Start Finance.csproj",
+        "packagesPath": "C:\\Users\\Nick\\.nuget\\packages\\",
+        "outputPath": "C:\\StarFinanceMaster\\Tafe21S2NSJ\\StarFinanceMaster\\InstaRichie\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
-          "E:\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
           "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\Jiawei Huang\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Nick\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "uap10.0.14393"
+          "uap10.0.19041"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "uap10.0.14393": {
+          "uap10.0.19041": {
             "projectReferences": {}
           }
         }
       },
       "frameworks": {
-        "uap10.0.14393": {
+        "uap10.0.19041": {
           "dependencies": {
             "CrossPieCharts.UWP": {
               "target": "Package",
@@ -67,7 +67,12 @@
               "target": "Package",
               "version": "[3.13.0, )"
             }
-          }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
         }
       },
       "runtimes": {

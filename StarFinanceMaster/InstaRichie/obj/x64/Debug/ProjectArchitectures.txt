@@ -1,1 +1,1 @@
-D:\5TSDFinanceAssignment\StarFinanceMaster\InstaRichie\Start Finance.csproj;x64
+C:\StarFinanceMaster\Tafe21S2NSJ\StarFinanceMaster\InstaRichie\Start Finance.csproj;x64
