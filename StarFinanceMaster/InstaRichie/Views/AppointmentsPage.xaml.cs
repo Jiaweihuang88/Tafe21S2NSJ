@@ -41,8 +41,8 @@ namespace StartFinance.Views
         public void Results()
         {
             // Creating table
-            conn.CreateTable<Appointments>();
-            var query = conn.Table<Appointments>();
+            conn.CreateTable<NewAppointments>();
+            var query = conn.Table<NewAppointments>();
             AppointmentList.ItemsSource = query.ToList();
         }
 
@@ -82,7 +82,7 @@ namespace StartFinance.Views
                     DateTime endDateTime = appointmentDatePicker.Date.Add(appEndTimePicker.Time).UtcDateTime;
 
                     // Inserts the data
-                    conn.Insert(new Appointments()
+                    conn.Insert(new NewAppointments()
                     {
                         EventName = EventNameBox.Text,
                         Location = LocationBox.Text,
@@ -150,7 +150,7 @@ namespace StartFinance.Views
                 // checks if data is null else inserts
                 try
                 {
-                    string AppointmentsLabel = ((Appointments)AppointmentList.SelectedItem).EventName;
+                    string AppointmentsLabel = ((NewAppointments)AppointmentList.SelectedItem).EventName;
                     //var querydel = conn.Query<Appointments>("DELETE FROM Appointments WHERE EventName='" + AppointmentsLabel + "'");
                     //Results();
                     //conn.CreateTable<Appointments>();
@@ -158,9 +158,9 @@ namespace StartFinance.Views
                     
                     //AppointmentList.ItemsSource = querydel.ToList();
 
-                    conn.CreateTable<Appointments>();
-                    var query1 = conn.Table<Appointments>();
-                    var query3 = conn.Query<Appointments>("DELETE FROM Appointments WHERE EventName ='" + AppointmentsLabel + "'");
+                    conn.CreateTable<NewAppointments>();
+                    var query1 = conn.Table<NewAppointments>();
+                    var query3 = conn.Query<NewAppointments>("DELETE FROM Appointments WHERE EventName ='" + AppointmentsLabel + "'");
                     AppointmentList.ItemsSource = query1.ToList();
                 }
                 catch (NullReferenceException)
