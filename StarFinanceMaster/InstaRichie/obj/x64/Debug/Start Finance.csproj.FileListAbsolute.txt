@@ -556,3 +556,4 @@ C:\git_repositories\5TSD\Start_Finance\Tafe21S2NSJ\StarFinanceMaster\InstaRichie
 C:\git_repositories\5TSD\Start_Finance\Tafe21S2NSJ\StarFinanceMaster\InstaRichie\obj\x64\Debug\Views\AppointmentsPage.g.cs
 C:\git_repositories\5TSD\Start_Finance\Tafe21S2NSJ\StarFinanceMaster\InstaRichie\obj\x64\Debug\Views\AppointmentsPage.xaml
 C:\git_repositories\5TSD\Start_Finance\Tafe21S2NSJ\StarFinanceMaster\InstaRichie\obj\x64\Debug\Views\AppointmentsPage.xbf
+C:\git_repositories\5TSD\Start_Finance\Tafe21S2NSJ\StarFinanceMaster\InstaRichie\obj\x64\Debug\Start Finance.csproj.AssemblyReference.cache

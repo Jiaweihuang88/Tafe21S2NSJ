@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\git_repositories\5TSD\Start_Finance\Tafe21S2NSJ\StarFinanceMaster\InstaRichie\bin\x64\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-09-15T07:48:44.965</Modified>
+      <Modified>2021-09-18T08:28:01.888</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\git_repositories\5TSD\Start_Finance\Tafe21S2NSJ\StarFinanceMaster\InstaRichie\bin\x64\Debug\StartFinance.exe">
       <PackagePath>entrypoint\StartFinance.exe</PackagePath>
-      <Modified>2021-09-15T07:48:39.848</Modified>
+      <Modified>2021-09-18T08:28:00.684</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Steph\.nuget\packages\crosspiecharts.uwp\1.0.2\lib\uap\CrossPieCharts.ClassLibrary.dll">
       <PackagePath>CrossPieCharts.ClassLibrary.dll</PackagePath>
@@ -542,67 +542,67 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\git_repositories\5TSD\Start_Finance\Tafe21S2NSJ\StarFinanceMaster\InstaRichie\bin\x64\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2021-09-15T07:48:39.524</Modified>
+      <Modified>2021-09-18T08:28:00.438</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\git_repositories\5TSD\Start_Finance\Tafe21S2NSJ\StarFinanceMaster\InstaRichie\bin\x64\Debug\Styles\Custom.xbf">
       <PackagePath>Styles\Custom.xbf</PackagePath>
-      <Modified>2021-09-15T07:48:39.523</Modified>
+      <Modified>2021-09-18T08:28:00.438</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\git_repositories\5TSD\Start_Finance\Tafe21S2NSJ\StarFinanceMaster\InstaRichie\bin\x64\Debug\Views\AccountsPage.xbf">
       <PackagePath>Views\AccountsPage.xbf</PackagePath>
-      <Modified>2021-09-15T07:48:39.464</Modified>
+      <Modified>2021-09-18T08:28:00.382</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\git_repositories\5TSD\Start_Finance\Tafe21S2NSJ\StarFinanceMaster\InstaRichie\bin\x64\Debug\Views\AppointmentsPage.xbf">
       <PackagePath>Views\AppointmentsPage.xbf</PackagePath>
-      <Modified>2021-09-15T07:48:39.469</Modified>
+      <Modified>2021-09-18T08:28:00.387</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\git_repositories\5TSD\Start_Finance\Tafe21S2NSJ\StarFinanceMaster\InstaRichie\bin\x64\Debug\Views\AssetsPage.xbf">
       <PackagePath>Views\AssetsPage.xbf</PackagePath>
-      <Modified>2021-09-15T07:48:39.524</Modified>
+      <Modified>2021-09-18T08:28:00.439</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\git_repositories\5TSD\Start_Finance\Tafe21S2NSJ\StarFinanceMaster\InstaRichie\bin\x64\Debug\Views\Busy.xbf">
       <PackagePath>Views\Busy.xbf</PackagePath>
-      <Modified>2021-09-15T07:48:39.524</Modified>
+      <Modified>2021-09-18T08:28:00.439</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\git_repositories\5TSD\Start_Finance\Tafe21S2NSJ\StarFinanceMaster\InstaRichie\bin\x64\Debug\Views\DashBoardPage.xbf">
       <PackagePath>Views\DashBoardPage.xbf</PackagePath>
-      <Modified>2021-09-15T07:48:39.482</Modified>
+      <Modified>2021-09-18T08:28:00.399</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\git_repositories\5TSD\Start_Finance\Tafe21S2NSJ\StarFinanceMaster\InstaRichie\bin\x64\Debug\Views\DebtPage.xbf">
       <PackagePath>Views\DebtPage.xbf</PackagePath>
-      <Modified>2021-09-15T07:48:39.489</Modified>
+      <Modified>2021-09-18T08:28:00.405</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\git_repositories\5TSD\Start_Finance\Tafe21S2NSJ\StarFinanceMaster\InstaRichie\bin\x64\Debug\Views\DetailPage.xbf">
       <PackagePath>Views\DetailPage.xbf</PackagePath>
-      <Modified>2021-09-15T07:48:39.525</Modified>
+      <Modified>2021-09-18T08:28:00.440</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\git_repositories\5TSD\Start_Finance\Tafe21S2NSJ\StarFinanceMaster\InstaRichie\bin\x64\Debug\Views\MainPage.xbf">
       <PackagePath>Views\MainPage.xbf</PackagePath>
-      <Modified>2021-09-15T07:48:39.497</Modified>
+      <Modified>2021-09-18T08:28:00.412</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\git_repositories\5TSD\Start_Finance\Tafe21S2NSJ\StarFinanceMaster\InstaRichie\bin\x64\Debug\Views\SettingsPage.xbf">
       <PackagePath>Views\SettingsPage.xbf</PackagePath>
-      <Modified>2021-09-15T07:48:39.504</Modified>
+      <Modified>2021-09-18T08:28:00.419</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\git_repositories\5TSD\Start_Finance\Tafe21S2NSJ\StarFinanceMaster\InstaRichie\bin\x64\Debug\Views\Shell.xbf">
       <PackagePath>Views\Shell.xbf</PackagePath>
-      <Modified>2021-09-15T07:48:39.526</Modified>
+      <Modified>2021-09-18T08:28:00.440</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\git_repositories\5TSD\Start_Finance\Tafe21S2NSJ\StarFinanceMaster\InstaRichie\bin\x64\Debug\Views\Splash.xbf">
       <PackagePath>Views\Splash.xbf</PackagePath>
-      <Modified>2021-09-15T07:48:39.526</Modified>
+      <Modified>2021-09-18T08:28:00.440</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\git_repositories\5TSD\Start_Finance\Tafe21S2NSJ\StarFinanceMaster\InstaRichie\bin\x64\Debug\Views\TransactionListPage.xbf">
       <PackagePath>Views\TransactionListPage.xbf</PackagePath>
-      <Modified>2021-09-15T07:48:39.526</Modified>
+      <Modified>2021-09-18T08:28:00.441</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\git_repositories\5TSD\Start_Finance\Tafe21S2NSJ\StarFinanceMaster\InstaRichie\bin\x64\Debug\Views\TransactionPage.xbf">
       <PackagePath>Views\TransactionPage.xbf</PackagePath>
-      <Modified>2021-09-15T07:48:39.519</Modified>
+      <Modified>2021-09-18T08:28:00.434</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\git_repositories\5TSD\Start_Finance\Tafe21S2NSJ\StarFinanceMaster\InstaRichie\bin\x64\Debug\Views\WishListPage.xbf">
       <PackagePath>Views\WishListPage.xbf</PackagePath>
-      <Modified>2021-09-15T07:48:39.527</Modified>
+      <Modified>2021-09-18T08:28:00.441</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.UniversalCRT.Debug\10.0.18362.0\\redist\Debug\X64\ucrtbased.dll">
       <PackagePath>ucrtbased.dll</PackagePath>
@@ -618,7 +618,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\git_repositories\5TSD\Start_Finance\Tafe21S2NSJ\StarFinanceMaster\InstaRichie\bin\x64\Debug\Core\StartFinance.exe">
       <PackagePath>StartFinance.exe</PackagePath>
-      <Modified>2021-09-15T07:48:44.955</Modified>
+      <Modified>2021-09-18T08:28:01.883</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

@@ -65,24 +65,28 @@ namespace StartFinance.Views
                     // issue with conversion - registering as a format exception
 
                     //conversions to datetime
-                    DateTime eventDateTime;
-                    DateTime startDateTime;
-                    DateTime endDateTime;
+                    //DateTime eventDateTime;
+                    //DateTime startDateTime;
+                    //DateTime endDateTime;
 
-                    eventDateTime = Convert.ToDateTime(appointmentDatePicker.ToString());
-                    startDateTime = Convert.ToDateTime(appStartTimePicker.ToString());
-                    endDateTime = Convert.ToDateTime(appEndTimePicker.ToString());
+                    //eventDateTime = Convert.ToDateTime(appointmentDatePicker.ToString());
+                    //startDateTime = Convert.ToDateTime(appStartTimePicker.ToString());
+                    //endDateTime = Convert.ToDateTime(appEndTimePicker.ToString());
 
                     //eventDateTime = appointmentDatePicker.Date.ToString();
                     //startDateTime = Convert.ToDateTime(appStartTimePicker.ToString());
                     //endDateTime = Convert.ToDateTime(appEndTimePicker.ToString());
+
+                    // Should work
+                    DateTime startDateTime = appointmentDatePicker.Date.Add(appStartTimePicker.Time).UtcDateTime;
+                    DateTime endDateTime = appointmentDatePicker.Date.Add(appEndTimePicker.Time).UtcDateTime;
 
                     // Inserts the data
                     conn.Insert(new Appointments()
                     {
                         EventName = EventNameBox.Text,
                         Location = LocationBox.Text,
-                        EventDate = eventDateTime,
+                        //EventDate = eventDateTime,
                         StartTime = startDateTime, //.TimeSpan,
                         EndTime = endDateTime //.Time,
                     });
