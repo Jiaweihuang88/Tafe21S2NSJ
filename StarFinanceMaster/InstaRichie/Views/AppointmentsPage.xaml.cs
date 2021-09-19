@@ -58,11 +58,18 @@ namespace StartFinance.Views
                 }
                 
                 else
-                {                   
+                {
+
+                    // date picker also grabs current time/run time of the app and so when you add the time from the time picker it results in weird time issues
+                    // .Date.Date strips the time from the date picker, resetting to midnight. The time from the time picker is then addded and converted.
 
                     // Should work
-                    DateTime startDateTime = appointmentDatePicker.Date.Add(appStartTimePicker.Time).UtcDateTime;
-                    DateTime endDateTime = appointmentDatePicker.Date.Add(appEndTimePicker.Time).UtcDateTime;
+                    DateTime startDateTime = appointmentDatePicker.Date.Date.Add(appStartTimePicker.Time).ToLocalTime();
+                    DateTime endDateTime = appointmentDatePicker.Date.Date.Add(appEndTimePicker.Time).ToLocalTime();
+
+                    //startDateTime = startDateTime.ToLocalTime(); //.TimeSpan,
+                    //endDateTime = endDateTime.ToLocalTime();
+
 
                     // Inserts the data
                     conn.Insert(new NewAppointments()
@@ -70,8 +77,8 @@ namespace StartFinance.Views
                         EventName = EventNameBox.Text,
                         Location = LocationBox.Text,
                         //EventDate = eventDateTime,
-                        StartTime = startDateTime, //.TimeSpan,
-                        EndTime = endDateTime //.Time,
+                        StartTime = startDateTime, //.ToLocalTime(), //.TimeSpan,
+                        EndTime = endDateTime //.ToLocalTime() //.Time,
                     });
                     Results();
 
@@ -127,7 +134,10 @@ namespace StartFinance.Views
                     conn.CreateTable<NewAppointments>();
                     var query1 = conn.Table<NewAppointments>();
                     var query3 = conn.Query<NewAppointments>("DELETE FROM NewAppointments WHERE EventName ='" + delSelection + "'");
+                    //var query4 = conn.Query<NewAppointments>("SELECT * FROM NewAppointments");
+
                     AppointmentList.ItemsSource = query1.ToList();
+                    //AppointmentList.ItemsSource = query4.ToList();
                 }
             }
             catch (NullReferenceException)
