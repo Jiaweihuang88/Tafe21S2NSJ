@@ -56,26 +56,9 @@ namespace StartFinance.Views
                     MessageDialog dialog = new MessageDialog("Event name not Entered", "Oops..!");
                     await dialog.ShowAsync();
                 }
-                //else if (EventNameBox.Text.ToString() == "AppointmentName" || EventNameBox.Text.ToString() == "InitialAmount")
-                //{
-                //    MessageDialog variableerror = new MessageDialog("You cannot use this name", "Oops..!");
-                //}
+                
                 else
-                {
-                    // issue with conversion - registering as a format exception
-
-                    //conversions to datetime
-                    //DateTime eventDateTime;
-                    //DateTime startDateTime;
-                    //DateTime endDateTime;
-
-                    //eventDateTime = Convert.ToDateTime(appointmentDatePicker.ToString());
-                    //startDateTime = Convert.ToDateTime(appStartTimePicker.ToString());
-                    //endDateTime = Convert.ToDateTime(appEndTimePicker.ToString());
-
-                    //eventDateTime = appointmentDatePicker.Date.ToString();
-                    //startDateTime = Convert.ToDateTime(appStartTimePicker.ToString());
-                    //endDateTime = Convert.ToDateTime(appEndTimePicker.ToString());
+                {                   
 
                     // Should work
                     DateTime startDateTime = appointmentDatePicker.Date.Add(appStartTimePicker.Time).UtcDateTime;
@@ -91,8 +74,6 @@ namespace StartFinance.Views
                         EndTime = endDateTime //.Time,
                     });
                     Results();
-
-                    //testTextBlock.Text = "cats" + appointmentDatePicker.Date.ToString();
 
                 }
 
@@ -132,49 +113,31 @@ namespace StartFinance.Views
 
         private async void DeleteItem_Click(object sender, RoutedEventArgs e)
         {
-            MessageDialog ShowConf = new MessageDialog("Would you like to delete this appointment?", "Important");
-            ShowConf.Commands.Add(new UICommand("Yes, Delete")
-            {
-                Id = 0
-            });
-            ShowConf.Commands.Add(new UICommand("Cancel")
-            {
-                Id = 1
-            });
-            ShowConf.DefaultCommandIndex = 0;
-            ShowConf.CancelCommandIndex = 1;
 
-            var result = await ShowConf.ShowAsync();
-            if ((int)result.Id == 0)
+            try
             {
-                // checks if data is null else inserts
-                try
+                string delSelection = ((NewAppointments)AppointmentList.SelectedItem).EventName;
+                if (delSelection == "")
                 {
-                    string AppointmentsLabel = ((NewAppointments)AppointmentList.SelectedItem).EventName;
-                    //var querydel = conn.Query<Appointments>("DELETE FROM Appointments WHERE EventName='" + AppointmentsLabel + "'");
-                    //Results();
-                    //conn.CreateTable<Appointments>();
-                    //var querytable = conn.Query<Appointments>("DELETE FROM Appointments WHERE Appointments='" + AppointmentsLabel + "'");
-                    
-                    //AppointmentList.ItemsSource = querydel.ToList();
-
+                    MessageDialog dialog = new MessageDialog("Not selected the Item", "Oops..!");
+                    await dialog.ShowAsync();
+                }
+                else
+                {
                     conn.CreateTable<NewAppointments>();
                     var query1 = conn.Table<NewAppointments>();
-                    var query3 = conn.Query<NewAppointments>("DELETE FROM Appointments WHERE EventName ='" + AppointmentsLabel + "'");
+                    var query3 = conn.Query<NewAppointments>("DELETE FROM NewAppointments WHERE EventName ='" + delSelection + "'");
                     AppointmentList.ItemsSource = query1.ToList();
                 }
-                catch (NullReferenceException)
-                {
-                    MessageDialog ClearDialog = new MessageDialog("Please select the item to Delete", "Oops..!");
-                    await ClearDialog.ShowAsync();
-                }
             }
-            else
+            catch (NullReferenceException)
             {
-                //
+                MessageDialog dialog = new MessageDialog("Not selected the Item", "Oops..!");
+                await dialog.ShowAsync();
             }
-        }
 
+            
+        }
 
     }
 }

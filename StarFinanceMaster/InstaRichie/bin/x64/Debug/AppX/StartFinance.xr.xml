@@ -7,7 +7,6 @@
     <RootPropertyPathName Name="ID" />
     <RootPropertyPathName Name="EndTime" />
     <RootPropertyPathName Name="StartTime" />
-    <RootPropertyPathName Name="EventDate" />
     <RootPropertyPathName Name="Location" />
     <RootPropertyPathName Name="EventName" />
     <RootPropertyPathName Name="AppointmentID" />
