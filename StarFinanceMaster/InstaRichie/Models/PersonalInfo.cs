@@ -12,7 +12,7 @@ namespace StartFinance.Models
         [PrimaryKey, AutoIncrement]
         public int User_ID { get; set; }
 
-        [Unique]
+        [NotNull]
         public string Full_Name { get; set; }
 
         [NotNull]

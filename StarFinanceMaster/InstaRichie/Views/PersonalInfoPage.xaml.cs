@@ -67,8 +67,8 @@ namespace StartFinance.Views
                 }
                 else
                 {
-                    int id = Int32.Parse(idSource);
-                    object idSearchResult = con.Query<PersonalInfo>("SELECT * FROM PersonalInfo WHERE User_ID ='" + id + "'");
+                    
+                    object idSearchResult = con.Query<PersonalInfo>("SELECT * FROM PersonalInfo WHERE User_ID ='" + idSource + "'");
 
                     if (idSearchResult == null)
                     {
@@ -76,10 +76,12 @@ namespace StartFinance.Views
                         await dialog.ShowAsync();
 
                     }
+                    else
+                    {
 
 
-
-                    PersonalInfoList.ItemsSource = idSearchResult;
+                        PersonalInfoList.ItemsSource = idSearchResult;
+                    }
                 }
 
 
@@ -92,20 +94,60 @@ namespace StartFinance.Views
                 await dialog.ShowAsync();
             }
         }
-        private void AddBtn_Click(object sender, RoutedEventArgs e)
+        private async void AddBtn_Click(object sender, RoutedEventArgs e)
         {
-            int newId = Int32.Parse(UserIdTextBox.Text);
-            string newName = FullNameTextBox.Text;
-            string newContact = ContactTextBox.Text;
-            string newEmail = EmailTextBox.Text;
-            con.Insert(new PersonalInfo()
+            string newName;
+            string newContact;
+            string newEmail;
+            int newId;
+
+
+
+            try
             {
-                User_ID = newId,
-                Full_Name = newName,
-                Contact = newContact,
-                Email = newEmail,
-            });
-            Results();
+                newName = FullNameTextBox.Text;
+                newContact = ContactTextBox.Text;
+                newEmail = EmailTextBox.Text;
+                
+                if (newName != "" && newContact != "" && newEmail != "")
+                {
+                    try
+                    {
+                        con.Insert(new PersonalInfo()
+                        {
+
+                            Full_Name = newName,
+                            Contact = newContact,
+                            Email = newEmail,
+                        
+                             }
+                        );
+                        MessageDialog dialog = new MessageDialog("User " + newName + " is saved");
+                        await dialog.ShowAsync();
+                        Results();
+                    }
+                    catch (SQLiteException)
+                    {
+                        MessageDialog dialog = new MessageDialog(newName + " is not saved, Your record is duplicated in our system");
+                        await dialog.ShowAsync();
+                        Results();
+                    }
+                }
+                else {
+                    MessageDialog dialog = new MessageDialog("Please enter all field");
+                    await dialog.ShowAsync();
+                }
+                
+              
+            }
+            catch (FormatException)
+            {
+                MessageDialog dialog = new MessageDialog("Your input is wrong", "Oops..!");
+                await dialog.ShowAsync();
+            }
+           
+
+            
         }
 
         private async void EditBtn_Click(object sender, RoutedEventArgs e)
@@ -115,24 +157,35 @@ namespace StartFinance.Views
             string newContact = ContactTextBox.Text;
             string newEmail = EmailTextBox.Text;
 
-
-            object idSearchResult = con.Query<PersonalInfo>("SELECT * FROM PersonalInfo WHERE User_ID ='" + existingId + "'");
-
-            if (idSearchResult == null)
+            if (existingId != "" && newName != "" && newContact != "" && newEmail != "")
             {
-                MessageDialog dialog = new MessageDialog("The profile is not existed");
-                await dialog.ShowAsync();
+                object idSearchResult = con.Query<PersonalInfo>("SELECT * FROM PersonalInfo WHERE User_ID ='" + existingId + "'");
 
+                if (idSearchResult == null)
+                {
+                    MessageDialog dialog = new MessageDialog("The profile is not existed");
+                    await dialog.ShowAsync();
+
+                }
+
+                else
+                {
+
+                    con.Query<PersonalInfo>("update PersonalInfo set Full_Name ='" + newName + "' where User_ID = '" + existingId + "'");
+                    con.Query<PersonalInfo>("update PersonalInfo set Email ='" + newEmail + "' where User_ID = '" + existingId + "'");
+                    con.Query<PersonalInfo>("update PersonalInfo set Contact ='" + newContact + "' where User_ID = '" + existingId + "'");
+
+                    MessageDialog dialog = new MessageDialog(newName + " is updated");
+                    await dialog.ShowAsync();
+
+
+                    Results();
+                }
             }
-
             else
             {
-
-                con.Query<PersonalInfo>("update PersonalInfo set Full_Name ='" + newName + "' where User_ID = '" + existingId + "'");
-                con.Query<PersonalInfo>("update PersonalInfo set Email ='" + newEmail + "' where User_ID = '" + existingId + "'");
-                con.Query<PersonalInfo>("update PersonalInfo set Contact ='" + newContact + "' where User_ID = '" + existingId + "'");
-
-                Results();
+                MessageDialog dialog = new MessageDialog("Please enter all field");
+                await dialog.ShowAsync();
             }
         }
 
@@ -140,24 +193,20 @@ namespace StartFinance.Views
         {
             string existingId = UserIdTextBox.Text;
 
-
-            object idSearchResult = con.Query<PersonalInfo>("SELECT * FROM PersonalInfo WHERE User_ID ='" + existingId + "'");
-
-            if (idSearchResult == null)
+            try
             {
-                MessageDialog dialog = new MessageDialog("The profile is not existed");
-                await dialog.ShowAsync();
-
-            }
-
-            else
-            {
-
-
                 string deleteQry = "DELETE FROM PersonalInfo WHERE User_ID = " + UserIdTextBox.Text;
                 con.Query<PersonalInfo>(deleteQry);
 
+                MessageDialog dialog = new MessageDialog("ID: "+existingId + " is deleted");
+                await dialog.ShowAsync();
+
                 Results();
+            }
+            catch (SQLiteException)
+            {
+                MessageDialog dialog = new MessageDialog("Your input is not correct");
+                await dialog.ShowAsync();
             }
         }
 
@@ -166,6 +215,15 @@ namespace StartFinance.Views
             con = new SQLite.Net.SQLiteConnection(new SQLite.Net.Platform.WinRT.SQLitePlatformWinRT(), path);
             Results();
             
+        }
+
+        private bool VerifyExistingId(int id)
+        {
+            bool isIdExist = false;
+
+
+
+            return isIdExist;
         }
 
         private void Pivot_SelectionChanged(object sender, SelectionChangedEventArgs e)

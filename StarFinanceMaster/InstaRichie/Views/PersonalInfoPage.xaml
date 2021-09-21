@@ -107,7 +107,7 @@
                         Orientation="Vertical" Margin="10,5,10,0">
                         <TextBox x:Name="UserIdTextBox" Header="User ID:" PlaceholderText="Enter your ID here" TextWrapping="Wrap"/>
                         <Button x:Name="SearchByIdBtn" Content="Search " Margin="5" Click="SearchByIdBtn_Click"></Button>
-                        <TextBox x:Name="FullNameTextBox" Header="Full Name" PlaceholderText="" InputScope="PersonalFullName" TextWrapping="Wrap"/>
+                        <TextBox x:Name="FullNameTextBox" Header="Full Name" PlaceholderText="" InputScope="Number" TextWrapping="Wrap" AcceptsReturn="True"/>
                         <TextBox x:Name="EmailTextBox" Header="Email" PlaceholderText="" InputScope="EmailSmtpAddress" TextWrapping="Wrap"/>
                         <TextBox x:Name="ContactTextBox" Header="Contact Number" PlaceholderText="" InputScope="TelephoneNumber" TextWrapping="Wrap"/>
                         <Button x:Name="AddBtn" Content="Add" Margin="5" Click="AddBtn_Click"></Button>

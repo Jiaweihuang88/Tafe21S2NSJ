@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\5TSDFinanceAssignment\\StarFinanceMaster\\InstaRichie\\Start Finance.csproj": {}
+    "E:\\StarFianance\\Tafe21S2NSJ\\StarFinanceMaster\\InstaRichie\\Start Finance.csproj": {}
   },
   "projects": {
-    "D:\\5TSDFinanceAssignment\\StarFinanceMaster\\InstaRichie\\Start Finance.csproj": {
+    "E:\\StarFianance\\Tafe21S2NSJ\\StarFinanceMaster\\InstaRichie\\Start Finance.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\5TSDFinanceAssignment\\StarFinanceMaster\\InstaRichie\\Start Finance.csproj",
+        "projectUniqueName": "E:\\StarFianance\\Tafe21S2NSJ\\StarFinanceMaster\\InstaRichie\\Start Finance.csproj",
         "projectName": "Start Finance",
-        "projectPath": "D:\\5TSDFinanceAssignment\\StarFinanceMaster\\InstaRichie\\Start Finance.csproj",
+        "projectPath": "E:\\StarFianance\\Tafe21S2NSJ\\StarFinanceMaster\\InstaRichie\\Start Finance.csproj",
         "packagesPath": "C:\\Users\\Jiawei Huang\\.nuget\\packages\\",
-        "outputPath": "D:\\5TSDFinanceAssignment\\StarFinanceMaster\\InstaRichie\\obj\\",
+        "outputPath": "E:\\StarFianance\\Tafe21S2NSJ\\StarFinanceMaster\\InstaRichie\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [

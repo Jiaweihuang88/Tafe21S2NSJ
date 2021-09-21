@@ -107,7 +107,7 @@
                         Orientation="Vertical" Margin="10,5,10,0">
                         <TextBox x:ConnectionId='13' x:Name="UserIdTextBox" Header="User ID:" PlaceholderText="Enter your ID here" TextWrapping="Wrap"/>
                         <Button x:ConnectionId='14' x:Name="SearchByIdBtn" Content="Search " Margin="5"                            ></Button>
-                        <TextBox x:ConnectionId='15' x:Name="FullNameTextBox" Header="Full Name" PlaceholderText="" InputScope="PersonalFullName" TextWrapping="Wrap"/>
+                        <TextBox x:ConnectionId='15' x:Name="FullNameTextBox" Header="Full Name" PlaceholderText="" InputScope="Number" TextWrapping="Wrap" AcceptsReturn="True"/>
                         <TextBox x:ConnectionId='16' x:Name="EmailTextBox" Header="Email" PlaceholderText="" InputScope="EmailSmtpAddress" TextWrapping="Wrap"/>
                         <TextBox x:ConnectionId='17' x:Name="ContactTextBox" Header="Contact Number" PlaceholderText="" InputScope="TelephoneNumber" TextWrapping="Wrap"/>
                         <Button x:ConnectionId='18' x:Name="AddBtn" Content="Add" Margin="5"                     ></Button>

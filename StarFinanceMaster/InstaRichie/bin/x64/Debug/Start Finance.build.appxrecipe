@@ -10,22 +10,22 @@
     <PackageArchitecture>x64</PackageArchitecture>
     <PackageIdentityName>55315fcf-abdd-4acd-aa68-afdab1b5cfbf</PackageIdentityName>
     <PackageIdentityPublisher>CN=lau</PackageIdentityPublisher>
-    <IntermediateOutputPath>D:\5TSDFinanceAssignment\StarFinanceMaster\InstaRichie\obj\x64\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>E:\StarFianance\Tafe21S2NSJ\StarFinanceMaster\InstaRichie\obj\x64\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType></RemoteDeploymentType>
     <PackageRegistrationPath></PackageRegistrationPath>
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>E:\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>D:\5TSDFinanceAssignment\StarFinanceMaster\InstaRichie\bin\x64\Debug\AppX</LayoutDir>
+    <LayoutDir>E:\StarFianance\Tafe21S2NSJ\StarFinanceMaster\InstaRichie\bin\x64\Debug\AppX</LayoutDir>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="D:\5TSDFinanceAssignment\StarFinanceMaster\InstaRichie\bin\x64\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="E:\StarFianance\Tafe21S2NSJ\StarFinanceMaster\InstaRichie\bin\x64\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="D:\5TSDFinanceAssignment\StarFinanceMaster\InstaRichie\bin\x64\Debug\StartFinance.exe">
+    <AppxPackagedFile Include="E:\StarFianance\Tafe21S2NSJ\StarFinanceMaster\InstaRichie\bin\x64\Debug\StartFinance.exe">
       <PackagePath>entrypoint\StartFinance.exe</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jiawei Huang\.nuget\packages\crosspiecharts.uwp\1.0.2\lib\uap\CrossPieCharts.ClassLibrary.dll">
@@ -376,88 +376,88 @@
     <AppxPackagedFile Include="C:\Users\Jiawei Huang\.nuget\packages\template10\1.1.11\lib\uap10.0\Template10Library\Properties\Template10Library.rd.xml">
       <PackagePath>Template10Library\Properties\Template10Library.rd.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\5TSDFinanceAssignment\StarFinanceMaster\InstaRichie\Help.htm">
+    <AppxPackagedFile Include="E:\StarFianance\Tafe21S2NSJ\StarFinanceMaster\InstaRichie\Help.htm">
       <PackagePath>Help.htm</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\5TSDFinanceAssignment\StarFinanceMaster\InstaRichie\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="E:\StarFianance\Tafe21S2NSJ\StarFinanceMaster\InstaRichie\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\5TSDFinanceAssignment\StarFinanceMaster\InstaRichie\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="E:\StarFianance\Tafe21S2NSJ\StarFinanceMaster\InstaRichie\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\5TSDFinanceAssignment\StarFinanceMaster\InstaRichie\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="E:\StarFianance\Tafe21S2NSJ\StarFinanceMaster\InstaRichie\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\5TSDFinanceAssignment\StarFinanceMaster\InstaRichie\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="E:\StarFianance\Tafe21S2NSJ\StarFinanceMaster\InstaRichie\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\5TSDFinanceAssignment\StarFinanceMaster\InstaRichie\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="E:\StarFianance\Tafe21S2NSJ\StarFinanceMaster\InstaRichie\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\5TSDFinanceAssignment\StarFinanceMaster\InstaRichie\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="E:\StarFianance\Tafe21S2NSJ\StarFinanceMaster\InstaRichie\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\5TSDFinanceAssignment\StarFinanceMaster\InstaRichie\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="E:\StarFianance\Tafe21S2NSJ\StarFinanceMaster\InstaRichie\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\5TSDFinanceAssignment\StarFinanceMaster\InstaRichie\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="E:\StarFianance\Tafe21S2NSJ\StarFinanceMaster\InstaRichie\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\5TSDFinanceAssignment\StarFinanceMaster\InstaRichie\bin\x64\Debug\StartFinance.xr.xml">
+    <AppxPackagedFile Include="E:\StarFianance\Tafe21S2NSJ\StarFinanceMaster\InstaRichie\bin\x64\Debug\StartFinance.xr.xml">
       <PackagePath>StartFinance.xr.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\5TSDFinanceAssignment\StarFinanceMaster\InstaRichie\bin\x64\Debug\App.xbf">
+    <AppxPackagedFile Include="E:\StarFianance\Tafe21S2NSJ\StarFinanceMaster\InstaRichie\bin\x64\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\5TSDFinanceAssignment\StarFinanceMaster\InstaRichie\bin\x64\Debug\Styles\Custom.xbf">
+    <AppxPackagedFile Include="E:\StarFianance\Tafe21S2NSJ\StarFinanceMaster\InstaRichie\bin\x64\Debug\Styles\Custom.xbf">
       <PackagePath>Styles\Custom.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\5TSDFinanceAssignment\StarFinanceMaster\InstaRichie\bin\x64\Debug\Views\AccountsPage.xbf">
+    <AppxPackagedFile Include="E:\StarFianance\Tafe21S2NSJ\StarFinanceMaster\InstaRichie\bin\x64\Debug\Views\AccountsPage.xbf">
       <PackagePath>Views\AccountsPage.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\5TSDFinanceAssignment\StarFinanceMaster\InstaRichie\bin\x64\Debug\Views\AssetsPage.xbf">
+    <AppxPackagedFile Include="E:\StarFianance\Tafe21S2NSJ\StarFinanceMaster\InstaRichie\bin\x64\Debug\Views\AssetsPage.xbf">
       <PackagePath>Views\AssetsPage.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\5TSDFinanceAssignment\StarFinanceMaster\InstaRichie\bin\x64\Debug\Views\Busy.xbf">
+    <AppxPackagedFile Include="E:\StarFianance\Tafe21S2NSJ\StarFinanceMaster\InstaRichie\bin\x64\Debug\Views\Busy.xbf">
       <PackagePath>Views\Busy.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\5TSDFinanceAssignment\StarFinanceMaster\InstaRichie\bin\x64\Debug\Views\DashBoardPage.xbf">
+    <AppxPackagedFile Include="E:\StarFianance\Tafe21S2NSJ\StarFinanceMaster\InstaRichie\bin\x64\Debug\Views\DashBoardPage.xbf">
       <PackagePath>Views\DashBoardPage.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\5TSDFinanceAssignment\StarFinanceMaster\InstaRichie\bin\x64\Debug\Views\DebtPage.xbf">
+    <AppxPackagedFile Include="E:\StarFianance\Tafe21S2NSJ\StarFinanceMaster\InstaRichie\bin\x64\Debug\Views\DebtPage.xbf">
       <PackagePath>Views\DebtPage.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\5TSDFinanceAssignment\StarFinanceMaster\InstaRichie\bin\x64\Debug\Views\DetailPage.xbf">
+    <AppxPackagedFile Include="E:\StarFianance\Tafe21S2NSJ\StarFinanceMaster\InstaRichie\bin\x64\Debug\Views\DetailPage.xbf">
       <PackagePath>Views\DetailPage.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\5TSDFinanceAssignment\StarFinanceMaster\InstaRichie\bin\x64\Debug\Views\MainPage.xbf">
+    <AppxPackagedFile Include="E:\StarFianance\Tafe21S2NSJ\StarFinanceMaster\InstaRichie\bin\x64\Debug\Views\MainPage.xbf">
       <PackagePath>Views\MainPage.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\5TSDFinanceAssignment\StarFinanceMaster\InstaRichie\bin\x64\Debug\Views\PersonalInfoPage.xbf">
+    <AppxPackagedFile Include="E:\StarFianance\Tafe21S2NSJ\StarFinanceMaster\InstaRichie\bin\x64\Debug\Views\PersonalInfoPage.xbf">
       <PackagePath>Views\PersonalInfoPage.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\5TSDFinanceAssignment\StarFinanceMaster\InstaRichie\bin\x64\Debug\Views\SettingsPage.xbf">
+    <AppxPackagedFile Include="E:\StarFianance\Tafe21S2NSJ\StarFinanceMaster\InstaRichie\bin\x64\Debug\Views\SettingsPage.xbf">
       <PackagePath>Views\SettingsPage.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\5TSDFinanceAssignment\StarFinanceMaster\InstaRichie\bin\x64\Debug\Views\Shell.xbf">
+    <AppxPackagedFile Include="E:\StarFianance\Tafe21S2NSJ\StarFinanceMaster\InstaRichie\bin\x64\Debug\Views\Shell.xbf">
       <PackagePath>Views\Shell.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\5TSDFinanceAssignment\StarFinanceMaster\InstaRichie\bin\x64\Debug\Views\Splash.xbf">
+    <AppxPackagedFile Include="E:\StarFianance\Tafe21S2NSJ\StarFinanceMaster\InstaRichie\bin\x64\Debug\Views\Splash.xbf">
       <PackagePath>Views\Splash.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\5TSDFinanceAssignment\StarFinanceMaster\InstaRichie\bin\x64\Debug\Views\TransactionListPage.xbf">
+    <AppxPackagedFile Include="E:\StarFianance\Tafe21S2NSJ\StarFinanceMaster\InstaRichie\bin\x64\Debug\Views\TransactionListPage.xbf">
       <PackagePath>Views\TransactionListPage.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\5TSDFinanceAssignment\StarFinanceMaster\InstaRichie\bin\x64\Debug\Views\TransactionPage.xbf">
+    <AppxPackagedFile Include="E:\StarFianance\Tafe21S2NSJ\StarFinanceMaster\InstaRichie\bin\x64\Debug\Views\TransactionPage.xbf">
       <PackagePath>Views\TransactionPage.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\5TSDFinanceAssignment\StarFinanceMaster\InstaRichie\bin\x64\Debug\Views\WishListPage.xbf">
+    <AppxPackagedFile Include="E:\StarFianance\Tafe21S2NSJ\StarFinanceMaster\InstaRichie\bin\x64\Debug\Views\WishListPage.xbf">
       <PackagePath>Views\WishListPage.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.UniversalCRT.Debug\10.0.18362.0\\redist\Debug\X64\ucrtbased.dll">
@@ -466,10 +466,10 @@
     <AppxPackagedFile Include="E:\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\5TSDFinanceAssignment\StarFinanceMaster\InstaRichie\bin\x64\Debug\resources.pri">
+    <AppxPackagedFile Include="E:\StarFianance\Tafe21S2NSJ\StarFinanceMaster\InstaRichie\bin\x64\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\5TSDFinanceAssignment\StarFinanceMaster\InstaRichie\bin\x64\Debug\Core\StartFinance.exe">
+    <AppxPackagedFile Include="E:\StarFianance\Tafe21S2NSJ\StarFinanceMaster\InstaRichie\bin\x64\Debug\Core\StartFinance.exe">
       <PackagePath>StartFinance.exe</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>
