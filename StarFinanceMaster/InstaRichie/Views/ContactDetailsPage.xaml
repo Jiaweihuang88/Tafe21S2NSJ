@@ -50,7 +50,7 @@
             </Grid.ColumnDefinitions>
 
             <TextBlock Text="Contact Details ID" TextWrapping="Wrap" VerticalAlignment="Center" HorizontalAlignment="Right" Margin="0,0,10,0" />
-            <TextBox x:Name="ContactDetailsID_TextBox" TextWrapping="Wrap" VerticalAlignment="Center" HorizontalAlignment="Stretch" Margin="5,5,5,5" Grid.Column="1" />
+            <TextBox x:Name="ContactDetailsID_TextBox" IsEnabled="False" TextWrapping="Wrap" VerticalAlignment="Center" HorizontalAlignment="Stretch" Margin="5,5,5,5" Grid.Column="1" />
 
             <TextBlock Text="First Name" TextWrapping="Wrap" VerticalAlignment="Center" HorizontalAlignment="Right" Margin="0,0,10,0" Grid.Row="1" />
             <TextBox x:Name="FirstName_TextBox" TextWrapping="Wrap" VerticalAlignment="Center" HorizontalAlignment="Stretch" Margin="5,5,5,5" Grid.Column="1" Grid.Row="1" />
