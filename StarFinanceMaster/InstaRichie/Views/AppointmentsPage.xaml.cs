@@ -50,13 +50,44 @@ namespace StartFinance.Views
         {
             try
             {
+                // validating that necessary fields are not left null
+
                 // checks if appointment name is null
                 if (EventNameBox.Text.ToString() == "")
                 {
-                    MessageDialog dialog = new MessageDialog("Event name not Entered", "Oops..!");
+                    MessageDialog dialog = new MessageDialog("Event name not entered", "Oops..!");
                     await dialog.ShowAsync();
                 }
-                
+
+                // checks if appointment location is null
+                if (LocationBox.Text.ToString() == "")
+                {
+                    MessageDialog dialog = new MessageDialog("Event location not entered", "Oops..!");
+                    await dialog.ShowAsync();
+                }
+
+                // checks if appointment date is null
+                else if (appointmentDatePicker.SelectedDate == null)
+                {
+                    MessageDialog dialog = new MessageDialog("Appointment date not entered", "Oops..!");
+                    await dialog.ShowAsync();
+                }
+
+                // checks if appointment start time is null
+                else if (appStartTimePicker.SelectedTime == null)
+                {
+                    MessageDialog dialog = new MessageDialog("Appointment start time not entered", "Oops..!");
+                    await dialog.ShowAsync();
+                }
+
+                // checks if appointment end time is null
+                else if (appEndTimePicker.SelectedTime == null)
+                {
+                    MessageDialog dialog = new MessageDialog("Appointment end time not entered", "Oops..!");
+                    await dialog.ShowAsync();
+                }
+
+
                 else
                 {
 
@@ -94,12 +125,13 @@ namespace StartFinance.Views
                 }   // Exception handling when SQLite contraints are violated
                 else if (ex is SQLiteException)
                 {
-                    MessageDialog dialog = new MessageDialog("Event Name already exists, Try a Different Name", "Oops..!");
+                    MessageDialog dialog = new MessageDialog("Event Name already exists, Try a different name", "Oops..!");
                     await dialog.ShowAsync();
                 }
                 else
                 {
-                    /// no idea
+                    MessageDialog dialog = new MessageDialog("An unknown eror has occured", "Oops..!");
+                    await dialog.ShowAsync();
                 }
 
             }
@@ -124,9 +156,9 @@ namespace StartFinance.Views
             try
             {
                 string delSelection = ((NewAppointments)AppointmentList.SelectedItem).EventName;
-                if (delSelection == "")
+                if (delSelection == null)
                 {
-                    MessageDialog dialog = new MessageDialog("Not selected the Item", "Oops..!");
+                    MessageDialog dialog = new MessageDialog("You have not selected an item to delete", "Oops..!");
                     await dialog.ShowAsync();
                 }
                 else
@@ -142,7 +174,7 @@ namespace StartFinance.Views
             }
             catch (NullReferenceException)
             {
-                MessageDialog dialog = new MessageDialog("Not selected the Item", "Oops..!");
+                MessageDialog dialog = new MessageDialog("You have not selected an item to delete", "Oops..!");
                 await dialog.ShowAsync();
             }
 
